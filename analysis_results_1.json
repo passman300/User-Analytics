@@ -1,0 +1,2914 @@
+{
+  "basic_stats": {
+    "total_events": 1850109,
+    "unique_users": 868,
+    "unique_sessions": 59868,
+    "date_range": {
+      "start": "2024-04-23 13:09:22",
+      "end": "2025-01-28 21:00:00"
+    }
+  },
+  "device_analysis": {
+    "device_distribution": {
+      "Windows": 1513654,
+      "Mac OS X": 288172,
+      "Linux": 46239,
+      "iOS": 2021,
+      "Android": 23
+    },
+    "platform_distribution": {
+      "Web": 1850109
+    },
+    "os_distribution": {
+      "Chrome": 1707543,
+      "Edge": 131340,
+      "Firefox": 8543,
+      "Mobile Safari": 1822,
+      "Safari": 637,
+      "Chrome Mobile iOS": 163,
+      "Edge Mobile": 36,
+      "Chrome Mobile": 22,
+      "HeadlessChrome": 2,
+      "android": 1
+    }
+  },
+  "geographic_analysis": {
+    "country_distribution": {
+      "United States": 1370823,
+      "India": 399503,
+      "Poland": 52844,
+      "Canada": 23210,
+      "Mexico": 2782,
+      "United Kingdom": 526,
+      "Costa Rica": 167,
+      "Singapore": 101,
+      "France": 78,
+      "Puerto Rico": 27,
+      "Zimbabwe": 26,
+      "Japan": 20,
+      "Germany": 2
+    },
+    "top_10_cities": {
+      "Mumbai": 399477,
+      "Nashville": 286693,
+      "Spring Hill": 74781,
+      "Chicago": 71692,
+      "Birmingham": 49854,
+      "Greenville": 45706,
+      "Alexandria": 38848,
+      "Wroclaw": 33788,
+      "Phoenix": 31894,
+      "Des Moines": 27699
+    }
+  },
+  "event_analysis": {
+    "event_type_distribution": {
+      "account-lines::widget:render": 428058,
+      "account-lines::configurable-table:render": 257224,
+      "account-lines:::view": 108249,
+      "dashboard:my-book:configurable-table:render": 105443,
+      "account-lines::layout:render": 104682,
+      "dashboard:my-book:widget:render": 99140,
+      "account:::view": 64694,
+      "session_start": 58762,
+      "session_end": 51610,
+      "application-window-opened": 47245,
+      ":all-accounts:configurable-table:render": 44870,
+      ":all-accounts:layout:render": 38182,
+      ":all-accounts:widget:render": 38141,
+      ":all-accounts::view": 38115,
+      "dashboard:my-book:layout:render": 37430,
+      "dashboard:my-book::view": 37406,
+      "action-center:::view": 25099,
+      "action-center:action-details::view": 23533,
+      "action-center:::close-click": 22174,
+      "::nav-header:action-center-click": 19737,
+      "triaged-submission-list:my-book:configurable-table:render": 17986,
+      "triaged-submission-list:my-book::view": 17803,
+      "action-center:::submit-click": 11046,
+      "account-property-rating:perils:configurable-table:render": 9511,
+      "account-lines:::change-rating-click": 9501,
+      "submissions:all-policy::view": 8768,
+      "submissions:all-policy:configurable-table:render": 8378,
+      "::configurable-table:render": 7860,
+      "action-center:action-details:response-form:submit-click": 7294,
+      "account-property-rating:perils::view": 6137,
+      "dashboard:my-book::action-click": 5707,
+      "account-property-rating:perils:perils-table:edit-click": 5597,
+      "account-auto-rating::configurable-table:render": 4640,
+      "submissions:all-exposures::view": 4581,
+      "submissions:exposures-create::view": 3884,
+      "submissions:all-exposures:configurable-table:render": 3772,
+      "submissions:policy-definition::view": 3753,
+      "submissions:exposures-create::submit-click": 3604,
+      "triaged-submission:triaged_submissions-definition:widget:render": 3310,
+      "submissions:policy-definition::submit-click": 3261,
+      "account-broker-view::widget:render": 3159,
+      "account-lines::templeton-docs:create-document-click": 2927,
+      "EMPTY": 2781,
+      "submissions:all-account:configurable-table:render": 2767,
+      "submissions:policy-definition:configurable-table:render": 2549,
+      "submissions:all-account::view": 1924,
+      "::widget:render": 1900,
+      "account-broker-readonly-view::widget:render": 1815,
+      "agency-dashboard::widget:render": 1140,
+      "agency-dashboard::configurable-table:render": 1124,
+      "submissions:triaged_submissions-definition::view": 1106,
+      "dashboard:portfolio-insights:widget:render": 1103,
+      "triaged-submission:triaged_submissions-definition::view": 1102,
+      "triaged-submission:triaged_submissions-definition:layout:render": 1102,
+      "triaged-submission-list:triaged_submissions-definition:configurable-table:render": 1100,
+      "triaged-submission-list:triaged_submissions-definition::view": 1100,
+      "submissions:policy-create::view": 1039,
+      "dashboard:portfolio-insights:layout:render": 1009,
+      "dashboard:portfolio-insights::view": 1009,
+      "account-property-rating:perils:perils-table:add-click": 988,
+      "account-auto-rating:::view": 974,
+      "dashboard:my-book:recent-actions-table:account-click": 916,
+      "submissions:all-renewal::view": 842,
+      "account-property-rating:pricing-detail:configurable-table:render": 801,
+      "goals-and-rules:goals:configurable-table:render": 728,
+      "account-broker-view:::view": 692,
+      "submissions:policy-create::submit-click": 686,
+      "dashboard:my-book:recent-actions-table:action-click": 635,
+      "submissions:policy-create:configurable-table:render": 628,
+      "account-property-rating:perils:model-request-details:save-click": 609,
+      "submissions:all-ingest_policy_through_pd::view": 605,
+      "all-accounts:new-business:layout:render": 578,
+      "submissions:all-ingest_policy_through_pd:configurable-table:render": 574,
+      "agency-dashboard:::view": 562,
+      "agency-dashboard::layout:render": 562,
+      "account-broker-view::layout:render": 500,
+      "account-broker-view::configurable-table:render": 468,
+      "account-property-rating:perils:layers:add-click": 439,
+      "account-broker-readonly-view::configurable-table:render": 387,
+      "goals-and-rules:new-rule::advanced-filters-applied": 358,
+      "submissions:all-renewal:configurable-table:render": 345,
+      "::nav-header:user-signed-out": 339,
+      "agency-account::widget:render": 327,
+      "all-accounts:new-business::view": 300,
+      "submissions:renewal-create::view": 299,
+      "assigned-email-thread:::email-thread-expansion": 287,
+      "::layout:render": 262,
+      "submissions:exposures-definition::view": 261,
+      "account-broker-readonly-view:::view": 258,
+      "account-broker-readonly-view::layout:render": 256,
+      "submissions:renewal-create::submit-click": 233,
+      "submissions:renewal-definition::view": 229,
+      "agency-account::configurable-table:render": 218,
+      "submissions:all-financial_lines::view": 214,
+      "all-accounts:new-business:accounts-table:account-click": 214,
+      "submissions:ingest_policy_through_pd-create::view": 188,
+      "goals-and-rules:goals::view": 182,
+      "all-accounts:renewals:layout:render": 180,
+      "account-lines::duplicate-policy-modal:duplicate-rating": 154,
+      "submissions:account-create::view": 152,
+      "triaged-submission:triaged_submissions-definition::winnability-click": 136,
+      "triaged-submission:triaged_submissions-definition::appetite-click": 130,
+      "::nav-header:help-menu-opened": 129,
+      "account-lines:::action-center-click": 115,
+      "::duplicate-policy-modal:duplicate-rating": 111,
+      "agency-account:::view": 109,
+      "agency-account::layout:render": 109,
+      "all-accounts:renewals::view": 109,
+      "account-lines::construction-excess-rater:create-document-click": 104,
+      "goals-and-rules:new-goal::advanced-filters-applied": 102,
+      "submissions:policy-definition::save-click": 90,
+      "goals-and-rules:rules:configurable-table:render": 89,
+      "goals-and-rules:rules::view": 89,
+      "account-property-rating::configurable-table:render": 87,
+      "goals-and-rules:goal-definition::view": 81,
+      "account-workers-comp-rating:::view": 77,
+      "goals-and-rules:edit-goal::advanced-filters-applied": 74,
+      "all-accounts:renewals:configurable-table:render": 73,
+      "account-lines::construction-excess-rater:save-new-quote-click": 66,
+      "account-lines::construction-excess-rater:modify-existing-quote-click": 64,
+      "account-property-rating:pricing-detail::view": 63,
+      "submissions:financial_lines-create::view": 62,
+      "account-property-rating:pricing-detail::open-ra-file-click": 54,
+      "submissions:all-auto::view": 54,
+      "account-property-rating:perils:layers:delete-click": 53,
+      "classification-rules::configurable-table:render": 51,
+      "submissions:all-financial_lines:configurable-table:render": 49,
+      "submissions:all-terrorism::view": 49,
+      "submissions:all-auto:configurable-table:render": 48,
+      "account-property-rating:perils:perils-table:delete-click": 47,
+      "brokerage::configurable-table:render": 44,
+      "all-accounts:new-business:configurable-table:render": 44,
+      "goals-and-rules:new-rule::view": 37,
+      "complex-rules::configurable-table:render": 35,
+      "goals-and-rules:new-rule:configurable-table:render": 35,
+      "all-accounts:renewals:widget:render": 31,
+      "submissions:all-exposure_demo::view": 28,
+      ":all-accounts:accounts-table:account-click": 28,
+      "contacts::configurable-table:render": 28,
+      "linked-email-thread-attachments:triaged_submissions-definition::document-download-click": 28,
+      "submissions:all-exposure_demo:configurable-table:render": 25,
+      "submissions:all-generic_submission::view": 25,
+      "account-auto-rating:::change-rating-click": 23,
+      "all-policies::configurable-table:render": 23,
+      "goals-and-rules:rule-definition:configurable-table:render": 22,
+      "all-accounts:new-business:widget:render": 22,
+      "goals-and-rules:edit-goal::view": 22,
+      "dashboard:team-insights:widget:render": 22,
+      "account-property-rating::duplicate-policy-modal:duplicate-rating": 21,
+      "all-policies:::view": 20,
+      "goals-and-rules:rule-definition::view": 20,
+      "reinsurance-binders::configurable-table:render": 19,
+      "account-policy-rating::configurable-table:render": 18,
+      "account-general-liability-rating:::view": 18,
+      "account-property-rating:::change-rating-click": 18,
+      "submissions:terrorism-create::view": 17,
+      "account-workers-comp-rating:::change-rating-click": 17,
+      "carriers::configurable-table:render": 17,
+      "rule::configurable-table:render": 16,
+      "submissions:policy-create::save-click": 16,
+      "account-property-rating:building-details:configurable-table:render": 15,
+      "account-property-rating:building-details::view": 15,
+      "classification-rule:::view": 15,
+      "submissions:all-terrorism:configurable-table:render": 15,
+      "dashboard:all-bordereaux:layout:render": 14,
+      "submissions:all-generic_submission:configurable-table:render": 14,
+      "classification-rule::configurable-table:render": 14,
+      "rule:::view": 14,
+      "submissions:generic_submission-definition::view": 13,
+      "renewal-policies::configurable-table:render": 13,
+      "renewal-policies:::view": 13,
+      "goals-and-rules:new-goal::view": 13,
+      "dashboard:all-bordereaux::view": 12,
+      "submissions:renewal-definition::submit-click": 12,
+      "dashboard:team-insights:layout:render": 11,
+      "dashboard:team-insights::view": 11,
+      "reninsurers::configurable-table:render": 10,
+      "submissions:example_submission-definition:widget:render": 10,
+      "submissions:ingest_policy_through_pd-definition::view": 9,
+      "goals-and-rules:edit-goal::close-click": 9,
+      "goals-and-rules:edit-goal:configurable-table:render": 9,
+      "dashboard:my-book::item-expansion": 9,
+      "goals-and-rules:new-rule::create-click": 9,
+      "goals-and-rules:edit-goal::save-click": 8,
+      "reinsurers-on-binders:::view": 8,
+      "reinsurers-on-binders::configurable-table:render": 8,
+      "account-policy-rating:::view": 8,
+      "submissions:generic_submission-create::view": 8,
+      "brokerage::widget:render": 7,
+      "submissions:all-sashco_submission::view": 7,
+      "brokerage:::view": 7,
+      "brokerage::layout:render": 7,
+      "submissions:justin_test_submission-definition:widget:render": 7,
+      "dashboard:all-bordereaux:configurable-table:render": 7,
+      "goals-and-rules:rule-definition::delete-click": 6,
+      "goals-and-rules:new-goal:configurable-table:render": 6,
+      "submissions:generic_submission-definition:widget:render": 6,
+      "submissions:generic_submission-definition:layout:render": 6,
+      "goals-and-rules:new-rule::close-click": 6,
+      "submissions:auto-create::view": 5,
+      "submissions:all-sashco_submission:configurable-table:render": 5,
+      "assigned-email-thread:my-book::email-thread-expansion": 5,
+      "submissions:example_submission-definition:configurable-table:render": 5,
+      "dashboard:all-bordereaux:widget:render": 5,
+      "assigned-email-thread:::document-download-click": 5,
+      "dashboard:my-book:action-items-card:all-actions-click": 5,
+      "goals-and-rules:edit-rule::advanced-filters-applied": 4,
+      "submissions:justin_test_submission-definition:configurable-table:render": 4,
+      "submissions:renewal-create::save-click": 4,
+      "submissions:exposure_demo-create::view": 4,
+      "submissions:all-example_submission::view": 4,
+      "submissions:all-test_conditional_form_inputs::view": 3,
+      "dashboard:my-book:upcoming-policies-table:policy-click": 3,
+      "submissions:sashco_submission-definition:widget:render": 3,
+      "account-lines::udocs-list:open-udoc-click": 3,
+      "account-property-rating:summary::view": 3,
+      "account-property-rating:summary:configurable-table:render": 3,
+      "goals-and-rules:goal-definition::delete-click": 3,
+      "submissions:exposures-create::save-click": 3,
+      "submissions:all-justin_test_submission::view": 3,
+      "account-lines::quote-packages:submit-click": 2,
+      "udoc-editor:::view": 2,
+      "account-auto-rating::duplicate-policy-modal:duplicate-rating": 2,
+      "account-lines::udocs-list:create-udoc-click": 2,
+      "goals-and-rules:edit-rule::close-click": 2,
+      "goals-and-rules:edit-rule::view": 2,
+      "submissions:exposures-definition::submit-click": 2,
+      "submissions:auto-definition::view": 2,
+      "submissions:example_submission-definition:layout:render": 2,
+      "goals-and-rules:new-goal::create-click": 2,
+      "goals-and-rules:new-goal::close-click": 2,
+      "account-lines:::duplicate-rating": 2,
+      "account-policy-rating:::change-rating-click": 2,
+      "submissions:all-old_renewal::view": 2,
+      "submissions:example_submission-definition::view": 1,
+      ":all-accounts::advanced-filters-opened": 1,
+      "submissions:sashco_submission-definition:configurable-table:render": 1,
+      "submissions:sashco_submission-definition:layout:render": 1,
+      "submissions:sashco_submission-definition::view": 1,
+      "goals-and-rules:edit-goal::create-click": 1,
+      "goals-and-rules:new-goal::cancel-click": 1,
+      "submissions:justin_test_submission-create::view": 1,
+      "submissions:all-justin_test_submission:configurable-table:render": 1,
+      "submissions:justin_test_submission-definition::view": 1,
+      "submissions:justin_test_submission-definition:layout:render": 1,
+      ":::account-click": 1,
+      "submissions:old_renewal-create::view": 1,
+      "submissions:all-single_step_submission::view": 1,
+      "submissions:all-stout_grout_llc:configurable-table:render": 1,
+      "submissions:all-stout_grout_llc::view": 1,
+      "submissions:example_submission-create::view": 1,
+      "account-lines::rating-card:duplicate-rating": 1,
+      "submissions:renewal-definition::save-click": 1,
+      "submissions:all-example_submission:configurable-table:render": 1,
+      "goals-and-rules:goal-definition::duplicate-click": 1,
+      "goals-and-rules:new-rule::cancel-click": 1
+    },
+    "hourly_distribution": {
+      "0": 17412,
+      "1": 13352,
+      "2": 11367,
+      "3": 15187,
+      "4": 35544,
+      "5": 52265,
+      "6": 55000,
+      "7": 54778,
+      "8": 56650,
+      "9": 55150,
+      "10": 65470,
+      "11": 64175,
+      "12": 67925,
+      "13": 91591,
+      "14": 133045,
+      "15": 160241,
+      "16": 151129,
+      "17": 131961,
+      "18": 121523,
+      "19": 137684,
+      "20": 131027,
+      "21": 113741,
+      "22": 76740,
+      "23": 37152
+    }
+  },
+  "journey_analysis": {
+    "event_flows": {
+      "sequences_2": {
+        "account-lines::widget:render \u2192 account-lines::widget:render": 187535,
+        "account-lines::widget:render \u2192 account-lines::configurable-table:render": 169982,
+        "account-lines::configurable-table:render \u2192 account-lines::widget:render": 144752,
+        "account-lines::layout:render \u2192 account-lines:::view": 92761,
+        "account-lines::configurable-table:render \u2192 account-lines::configurable-table:render": 63797,
+        "account-lines:::view \u2192 account:::view": 48310,
+        "account:::view \u2192 account-lines::widget:render": 43865,
+        "dashboard:my-book:widget:render \u2192 dashboard:my-book:configurable-table:render": 43177,
+        "dashboard:my-book:configurable-table:render \u2192 dashboard:my-book:widget:render": 38863,
+        ":all-accounts:layout:render \u2192 :all-accounts::view": 36053,
+        ":all-accounts:configurable-table:render \u2192 :all-accounts:widget:render": 35197,
+        "account-lines:::view \u2192 account-lines::widget:render": 33603,
+        "dashboard:my-book:configurable-table:render \u2192 dashboard:my-book:configurable-table:render": 32997,
+        "account-lines::widget:render \u2192 account-lines::layout:render": 30565,
+        "dashboard:my-book:layout:render \u2192 dashboard:my-book::view": 29793,
+        "dashboard:my-book:widget:render \u2192 dashboard:my-book:widget:render": 28166,
+        ":all-accounts:widget:render \u2192 :all-accounts:layout:render": 25843,
+        "::nav-header:action-center-click \u2192 action-center:::view": 19726,
+        "dashboard:my-book:widget:render \u2192 dashboard:my-book:layout:render": 18145,
+        ":all-accounts::view \u2192 account-lines::layout:render": 17794
+      },
+      "sequences_3": {
+        "account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render": 111487,
+        "account-lines::widget:render \u2192 account-lines::widget:render \u2192 account-lines::widget:render": 85116,
+        "account-lines::widget:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render": 73210,
+        "account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render": 66164,
+        "account-lines::layout:render \u2192 account-lines:::view \u2192 account:::view": 46569,
+        "account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::widget:render": 42234,
+        "account-lines:::view \u2192 account:::view \u2192 account-lines::widget:render": 39575,
+        "account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::configurable-table:render": 36030,
+        "account-lines::widget:render \u2192 account-lines::layout:render \u2192 account-lines:::view": 30006,
+        "account-lines::layout:render \u2192 account-lines:::view \u2192 account-lines::widget:render": 28856
+      },
+      "sequences_4": {
+        "account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render": 57268,
+        "account-lines::widget:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render": 44121,
+        "account-lines::layout:render \u2192 account-lines:::view \u2192 account:::view \u2192 account-lines::widget:render": 39562,
+        "account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render": 39060,
+        "account-lines::widget:render \u2192 account-lines::widget:render \u2192 account-lines::widget:render \u2192 account-lines::widget:render": 33428,
+        "account-lines::widget:render \u2192 account-lines::widget:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render": 32127,
+        "account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::widget:render": 29535,
+        ":all-accounts:configurable-table:render \u2192 :all-accounts:widget:render \u2192 :all-accounts:layout:render \u2192 :all-accounts::view": 25787,
+        "account-lines:::view \u2192 account:::view \u2192 account-lines::widget:render \u2192 account-lines::widget:render": 22867,
+        "account-lines::layout:render \u2192 account-lines:::view \u2192 account-lines::widget:render \u2192 account-lines::widget:render": 22073
+      },
+      "sequences_5": {
+        "account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render": 34346,
+        "account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render": 26375,
+        "account-lines::widget:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::widget:render": 23009,
+        "account-lines::layout:render \u2192 account-lines:::view \u2192 account:::view \u2192 account-lines::widget:render \u2192 account-lines::widget:render": 22863,
+        "account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::configurable-table:render": 18409,
+        ":all-accounts:configurable-table:render \u2192 :all-accounts:widget:render \u2192 :all-accounts:layout:render \u2192 :all-accounts::view \u2192 account-lines::layout:render": 17546,
+        ":all-accounts:layout:render \u2192 :all-accounts::view \u2192 account-lines::layout:render \u2192 account-lines:::view \u2192 account:::view": 17337,
+        ":all-accounts:widget:render \u2192 :all-accounts:layout:render \u2192 :all-accounts::view \u2192 account-lines::layout:render \u2192 account-lines:::view": 17248,
+        ":all-accounts::view \u2192 account-lines::layout:render \u2192 account-lines:::view \u2192 account:::view \u2192 account-lines::widget:render": 16419,
+        "account-lines::widget:render \u2192 account-lines::configurable-table:render \u2192 account-lines::widget:render \u2192 account-lines::layout:render \u2192 account-lines:::view": 16355
+      }
+    },
+    "path_analysis": {
+      "common_entry_points": {
+        "application-window-opened": 14581,
+        ":all-accounts:configurable-table:render": 3662,
+        "account-lines::layout:render": 1884,
+        "dashboard:my-book:configurable-table:render": 1435,
+        "account-lines::widget:render": 1167,
+        ":all-accounts:layout:render": 1110,
+        "dashboard:my-book:widget:render": 835,
+        "account:::view": 781,
+        "::nav-header:action-center-click": 539,
+        "action-center:::close-click": 412
+      },
+      "common_exit_points": {
+        "account-lines::configurable-table:render": 6639,
+        "dashboard:my-book:configurable-table:render": 6019,
+        "account-lines::widget:render": 4499,
+        "action-center:::close-click": 1701,
+        "dashboard:my-book::view": 1279,
+        ":all-accounts::view": 984,
+        "application-window-opened": 976,
+        "action-center:action-details::view": 791,
+        "::configurable-table:render": 790,
+        "account-property-rating:perils:configurable-table:render": 699
+      }
+    },
+    "user_segments": {
+      "Segment_0": {
+        "size": 15,
+        "percentage": 1.7281105990783412,
+        "top_events": {
+          "account-lines::widget:render": 5495.6,
+          "account-lines::configurable-table:render": 3750.8,
+          "account-lines:::view": 1716.6666666666667,
+          "account-lines::layout:render": 1694.8,
+          ":all-accounts:configurable-table:render": 820.2
+        }
+      },
+      "Segment_1": {
+        "size": 716,
+        "percentage": 82.48847926267281,
+        "top_events": {
+          "account-lines::widget:render": 91.89106145251397,
+          "account-lines::configurable-table:render": 50.201117318435756,
+          "dashboard:my-book:configurable-table:render": 32.25698324022346,
+          "dashboard:my-book:widget:render": 29.36173184357542,
+          "account-lines:::view": 22.050279329608937
+        }
+      },
+      "Segment_2": {
+        "size": 1,
+        "percentage": 0.1152073732718894,
+        "top_events": {
+          "dashboard:my-book:configurable-table:render": 13226.0,
+          "dashboard:my-book:widget:render": 9930.0,
+          "dashboard:my-book::view": 3320.0,
+          "application-window-opened": 3320.0,
+          "dashboard:my-book:layout:render": 3320.0
+        }
+      },
+      "Segment_3": {
+        "size": 75,
+        "percentage": 8.640552995391705,
+        "top_events": {
+          "account-lines::widget:render": 2026.64,
+          "account-lines::configurable-table:render": 1209.92,
+          "account-lines:::view": 533.32,
+          "account-lines::layout:render": 515.88,
+          "account:::view": 327.8
+        }
+      },
+      "Segment_4": {
+        "size": 61,
+        "percentage": 7.027649769585254,
+        "top_events": {
+          "account-lines::widget:render": 2095.6065573770493,
+          "account-lines::configurable-table:render": 1217.6065573770493,
+          "dashboard:my-book:widget:render": 900.7540983606557,
+          "dashboard:my-book:configurable-table:render": 885.672131147541,
+          "account-lines:::view": 437.9016393442623
+        }
+      }
+    },
+    "conversion_funnels": {
+      "account_creation": {
+        "steps": [
+          "session_start",
+          "account:::view",
+          "account-lines:::view"
+        ],
+        "user_counts": [
+          683,
+          506,
+          506
+        ],
+        "conversion_rates": [
+          100.0,
+          74.08491947291361,
+          100.0
+        ]
+      },
+      "action_completion": {
+        "steps": [
+          "action-center:::view",
+          "action-center:action-details::view",
+          "action-center:::submit-click"
+        ],
+        "user_counts": [
+          250,
+          216,
+          159
+        ],
+        "conversion_rates": [
+          100.0,
+          86.4,
+          73.61111111111111
+        ]
+      }
+    }
+  },
+  "temporal_relationships": {
+    "hourly_patterns": {
+      "distribution": {
+        "0": 17412,
+        "1": 13352,
+        "2": 11367,
+        "3": 15187,
+        "4": 35544,
+        "5": 52265,
+        "6": 55000,
+        "7": 54778,
+        "8": 56650,
+        "9": 55150,
+        "10": 65470,
+        "11": 64175,
+        "12": 67925,
+        "13": 91591,
+        "14": 133045,
+        "15": 160241,
+        "16": 151129,
+        "17": 131961,
+        "18": 121523,
+        "19": 137684,
+        "20": 131027,
+        "21": 113741,
+        "22": 76740,
+        "23": 37152
+      },
+      "peak_hours": {
+        "15": 160241,
+        "16": 151129,
+        "19": 137684,
+        "14": 133045,
+        "17": 131961
+      },
+      "quiet_hours": {
+        "2": 11367,
+        "1": 13352,
+        "3": 15187,
+        "0": 17412,
+        "4": 35544
+      }
+    },
+    "weekday_patterns": {
+      "weekday_distribution": {
+        "Friday": 363600,
+        "Monday": 353517,
+        "Saturday": 25515,
+        "Sunday": 17881,
+        "Thursday": 406228,
+        "Tuesday": 380958,
+        "Wednesday": 302410
+      },
+      "weekday_hour_matrix": {
+        "0": {
+          "Friday": 3392,
+          "Monday": 909,
+          "Saturday": 2974,
+          "Sunday": 780,
+          "Thursday": 3757,
+          "Tuesday": 3167,
+          "Wednesday": 2433
+        },
+        "1": {
+          "Friday": 3020,
+          "Monday": 867,
+          "Saturday": 2240,
+          "Sunday": 420,
+          "Thursday": 1908,
+          "Tuesday": 2875,
+          "Wednesday": 2022
+        },
+        "2": {
+          "Friday": 1914,
+          "Monday": 1093,
+          "Saturday": 1567,
+          "Sunday": 359,
+          "Thursday": 2788,
+          "Tuesday": 1606,
+          "Wednesday": 2040
+        },
+        "3": {
+          "Friday": 3122,
+          "Monday": 2157,
+          "Saturday": 2120,
+          "Sunday": 330,
+          "Thursday": 2702,
+          "Tuesday": 2562,
+          "Wednesday": 2194
+        },
+        "4": {
+          "Friday": 6404,
+          "Monday": 6553,
+          "Saturday": 944,
+          "Sunday": 379,
+          "Thursday": 6866,
+          "Tuesday": 8245,
+          "Wednesday": 6153
+        },
+        "5": {
+          "Friday": 9773,
+          "Monday": 11235,
+          "Saturday": 631,
+          "Sunday": 593,
+          "Thursday": 10794,
+          "Tuesday": 10427,
+          "Wednesday": 8812
+        },
+        "6": {
+          "Friday": 10713,
+          "Monday": 11356,
+          "Saturday": 617,
+          "Sunday": 954,
+          "Thursday": 11907,
+          "Tuesday": 11325,
+          "Wednesday": 8128
+        },
+        "7": {
+          "Friday": 10729,
+          "Monday": 11347,
+          "Saturday": 363,
+          "Sunday": 828,
+          "Thursday": 11980,
+          "Tuesday": 11076,
+          "Wednesday": 8455
+        },
+        "8": {
+          "Friday": 11113,
+          "Monday": 11850,
+          "Saturday": 307,
+          "Sunday": 842,
+          "Thursday": 11707,
+          "Tuesday": 12078,
+          "Wednesday": 8753
+        },
+        "9": {
+          "Friday": 12584,
+          "Monday": 11553,
+          "Saturday": 280,
+          "Sunday": 275,
+          "Thursday": 10278,
+          "Tuesday": 11005,
+          "Wednesday": 9175
+        },
+        "10": {
+          "Friday": 11302,
+          "Monday": 13169,
+          "Saturday": 379,
+          "Sunday": 278,
+          "Thursday": 13468,
+          "Tuesday": 14061,
+          "Wednesday": 12813
+        },
+        "11": {
+          "Friday": 12140,
+          "Monday": 13635,
+          "Saturday": 496,
+          "Sunday": 349,
+          "Thursday": 13414,
+          "Tuesday": 13907,
+          "Wednesday": 10234
+        },
+        "12": {
+          "Friday": 12541,
+          "Monday": 15198,
+          "Saturday": 685,
+          "Sunday": 582,
+          "Thursday": 14648,
+          "Tuesday": 13951,
+          "Wednesday": 10320
+        },
+        "13": {
+          "Friday": 18102,
+          "Monday": 16509,
+          "Saturday": 792,
+          "Sunday": 488,
+          "Thursday": 21879,
+          "Tuesday": 19169,
+          "Wednesday": 14652
+        },
+        "14": {
+          "Friday": 29023,
+          "Monday": 25058,
+          "Saturday": 602,
+          "Sunday": 546,
+          "Thursday": 30551,
+          "Tuesday": 27859,
+          "Wednesday": 19406
+        },
+        "15": {
+          "Friday": 33423,
+          "Monday": 29723,
+          "Saturday": 635,
+          "Sunday": 726,
+          "Thursday": 36982,
+          "Tuesday": 33710,
+          "Wednesday": 25042
+        },
+        "16": {
+          "Friday": 30852,
+          "Monday": 27423,
+          "Saturday": 834,
+          "Sunday": 958,
+          "Thursday": 34054,
+          "Tuesday": 32309,
+          "Wednesday": 24699
+        },
+        "17": {
+          "Friday": 24917,
+          "Monday": 25973,
+          "Saturday": 1277,
+          "Sunday": 744,
+          "Thursday": 28089,
+          "Tuesday": 29771,
+          "Wednesday": 21190
+        },
+        "18": {
+          "Friday": 23389,
+          "Monday": 21280,
+          "Saturday": 1972,
+          "Sunday": 1020,
+          "Thursday": 27045,
+          "Tuesday": 27796,
+          "Wednesday": 19021
+        },
+        "19": {
+          "Friday": 26164,
+          "Monday": 26398,
+          "Saturday": 1509,
+          "Sunday": 936,
+          "Thursday": 30669,
+          "Tuesday": 30150,
+          "Wednesday": 21858
+        },
+        "20": {
+          "Friday": 26607,
+          "Monday": 24349,
+          "Saturday": 1149,
+          "Sunday": 1072,
+          "Thursday": 28002,
+          "Tuesday": 26378,
+          "Wednesday": 23470
+        },
+        "21": {
+          "Friday": 21703,
+          "Monday": 21871,
+          "Saturday": 1605,
+          "Sunday": 1488,
+          "Thursday": 26902,
+          "Tuesday": 19487,
+          "Wednesday": 20685
+        },
+        "22": {
+          "Friday": 14583,
+          "Monday": 15868,
+          "Saturday": 844,
+          "Sunday": 1900,
+          "Thursday": 17724,
+          "Tuesday": 12824,
+          "Wednesday": 12997
+        },
+        "23": {
+          "Friday": 6090,
+          "Monday": 8143,
+          "Saturday": 693,
+          "Sunday": 1034,
+          "Thursday": 8114,
+          "Tuesday": 5220,
+          "Wednesday": 7858
+        }
+      },
+      "peak_weekdays": {
+        "Thursday": 406228,
+        "Tuesday": 380958,
+        "Friday": 363600
+      }
+    },
+    "monthly_patterns": {
+      "distribution": {
+        "2024-04": 180,
+        "2024-05": 44,
+        "2024-06": 435,
+        "2024-07": 32,
+        "2024-08": 56,
+        "2024-09": 260,
+        "2024-10": 65,
+        "2024-11": 82,
+        "2024-12": 881,
+        "2025-01": 1848074
+      },
+      "peak_months": {
+        "2025-01": 1848074,
+        "2024-12": 881,
+        "2024-06": 435
+      },
+      "month_over_month_growth": {
+        "2024-05": -75.55555555555556,
+        "2024-06": 888.6363636363636,
+        "2024-07": -92.64367816091954,
+        "2024-08": 75.0,
+        "2024-09": 364.28571428571433,
+        "2024-10": -75.0,
+        "2024-11": 26.15384615384615,
+        "2024-12": 974.390243902439,
+        "2025-01": 209670.0340522134
+      }
+    },
+    "daily_patterns": {
+      "distribution": {
+        "2024-04-23": 179,
+        "2024-04-26": 1,
+        "2024-05-10": 1,
+        "2024-05-15": 1,
+        "2024-05-16": 30,
+        "2024-05-18": 1,
+        "2024-05-21": 11,
+        "2024-06-17": 1,
+        "2024-06-19": 1,
+        "2024-06-25": 1,
+        "2024-06-27": 432,
+        "2024-07-01": 1,
+        "2024-07-11": 7,
+        "2024-07-19": 5,
+        "2024-07-31": 19,
+        "2024-08-06": 4,
+        "2024-08-08": 1,
+        "2024-08-12": 48,
+        "2024-08-16": 1,
+        "2024-08-17": 1,
+        "2024-08-23": 1,
+        "2024-09-10": 257,
+        "2024-09-12": 1,
+        "2024-09-23": 2,
+        "2024-10-01": 52,
+        "2024-10-03": 2,
+        "2024-10-04": 2,
+        "2024-10-08": 2,
+        "2024-10-09": 1,
+        "2024-10-11": 1,
+        "2024-10-18": 2,
+        "2024-10-22": 1,
+        "2024-10-28": 1,
+        "2024-10-30": 1,
+        "2024-11-02": 1,
+        "2024-11-06": 1,
+        "2024-11-07": 3,
+        "2024-11-11": 1,
+        "2024-11-12": 1,
+        "2024-11-15": 2,
+        "2024-11-18": 15,
+        "2024-11-19": 14,
+        "2024-11-20": 31,
+        "2024-11-21": 3,
+        "2024-11-22": 1,
+        "2024-11-25": 5,
+        "2024-11-26": 3,
+        "2024-11-27": 1,
+        "2024-12-02": 2,
+        "2024-12-03": 2,
+        "2024-12-04": 7,
+        "2024-12-05": 7,
+        "2024-12-06": 4,
+        "2024-12-09": 4,
+        "2024-12-10": 5,
+        "2024-12-11": 11,
+        "2024-12-12": 10,
+        "2024-12-13": 24,
+        "2024-12-14": 1,
+        "2024-12-16": 8,
+        "2024-12-17": 26,
+        "2024-12-18": 18,
+        "2024-12-19": 206,
+        "2024-12-20": 17,
+        "2024-12-21": 2,
+        "2024-12-23": 22,
+        "2024-12-24": 62,
+        "2024-12-25": 2,
+        "2024-12-26": 30,
+        "2024-12-27": 50,
+        "2024-12-28": 5,
+        "2024-12-29": 10,
+        "2024-12-30": 74,
+        "2024-12-31": 272,
+        "2025-01-01": 3080,
+        "2025-01-02": 90649,
+        "2025-01-03": 83918,
+        "2025-01-04": 6468,
+        "2025-01-05": 4984,
+        "2025-01-06": 86762,
+        "2025-01-07": 101326,
+        "2025-01-08": 100661,
+        "2025-01-09": 98492,
+        "2025-01-10": 97160,
+        "2025-01-11": 4911,
+        "2025-01-12": 3100,
+        "2025-01-13": 98953,
+        "2025-01-14": 97942,
+        "2025-01-15": 97788,
+        "2025-01-16": 107691,
+        "2025-01-17": 86048,
+        "2025-01-18": 6951,
+        "2025-01-19": 2742,
+        "2025-01-20": 53605,
+        "2025-01-21": 83293,
+        "2025-01-22": 100787,
+        "2025-01-23": 108664,
+        "2025-01-24": 96362,
+        "2025-01-25": 7174,
+        "2025-01-26": 7045,
+        "2025-01-27": 114013,
+        "2025-01-28": 97505
+      },
+      "top_10_days": {
+        "2025-01-27": 114013,
+        "2025-01-23": 108664,
+        "2025-01-16": 107691,
+        "2025-01-07": 101326,
+        "2025-01-22": 100787,
+        "2025-01-08": 100661,
+        "2025-01-13": 98953,
+        "2025-01-09": 98492,
+        "2025-01-14": 97942,
+        "2025-01-15": 97788
+      },
+      "daily_stats": {
+        "mean": 18138.323529411766,
+        "median": 10.5,
+        "std": 37304.49845678286
+      }
+    },
+    "peak_activity": {
+      "by_weekday": {
+        "Thursday": {
+          "peak_hours": {
+            "15": 36982,
+            "16": 34054,
+            "19": 30669
+          },
+          "total_events": 406228
+        },
+        "Wednesday": {
+          "peak_hours": {
+            "15": 25042,
+            "16": 24699,
+            "20": 23470
+          },
+          "total_events": 302410
+        },
+        "Friday": {
+          "peak_hours": {
+            "15": 33423,
+            "16": 30852,
+            "14": 29023
+          },
+          "total_events": 363600
+        },
+        "Tuesday": {
+          "peak_hours": {
+            "15": 33710,
+            "16": 32309,
+            "19": 30150
+          },
+          "total_events": 380958
+        },
+        "Monday": {
+          "peak_hours": {
+            "15": 29723,
+            "16": 27423,
+            "19": 26398
+          },
+          "total_events": 353517
+        },
+        "Sunday": {
+          "peak_hours": {
+            "22": 1900,
+            "21": 1488,
+            "20": 1072
+          },
+          "total_events": 17881
+        },
+        "Saturday": {
+          "peak_hours": {
+            "0": 2974,
+            "1": 2240,
+            "3": 2120
+          },
+          "total_events": 25515
+        }
+      },
+      "overall_peak_day": "2025-01-27",
+      "overall_peak_day_count": 114013
+    },
+    "session_timing": {
+      "avg_duration_by_hour": {
+        "0": 270.2420051282051,
+        "1": 256.83377054794516,
+        "2": 456.55000928792566,
+        "3": 1615.1345592028138,
+        "4": 1618.210352121596,
+        "5": 1109.9744770922418,
+        "6": 940.7230890501319,
+        "7": 790.2412824324324,
+        "8": 673.6383707234997,
+        "9": 857.6634521978023,
+        "10": 757.5619752452126,
+        "11": 663.6953391472867,
+        "12": 596.132783288821,
+        "13": 677.635060425532,
+        "14": 755.8813744756017,
+        "15": 703.7044082815735,
+        "16": 591.0334090707964,
+        "17": 595.5995971223022,
+        "18": 677.468146656535,
+        "19": 664.951985704404,
+        "20": 521.6339036613866,
+        "21": 529.1558183556406,
+        "22": 396.1360842721947,
+        "23": 335.85575096376255
+      },
+      "avg_duration_by_weekday": {
+        "Friday": 694.0570879946005,
+        "Monday": 765.4808535690775,
+        "Saturday": 244.18114612188367,
+        "Sunday": 169.49493872741556,
+        "Thursday": 719.0558225043368,
+        "Tuesday": 684.2487803617571,
+        "Wednesday": 697.8818043546203
+      },
+      "avg_duration_by_month": {
+        "2024-04": 0.0,
+        "2024-05": 0.0,
+        "2024-06": 0.0,
+        "2024-07": 0.0,
+        "2024-08": 0.0014285714285714286,
+        "2024-09": 0.0,
+        "2024-10": 7.692307692307693e-05,
+        "2024-11": 0.16074193548387097,
+        "2024-12": 4.738379816513762,
+        "2025-01": 695.7446132217178
+      }
+    }
+  },
+  "geographic_relationships": {
+    "country_device_distribution": {
+      "Canada": {
+        "Android": 0,
+        "Linux": 10,
+        "Mac OS X": 22768,
+        "Windows": 0,
+        "iOS": 432
+      },
+      "Costa Rica": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 167,
+        "Windows": 0,
+        "iOS": 0
+      },
+      "France": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 78,
+        "Windows": 0,
+        "iOS": 0
+      },
+      "Germany": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 0,
+        "Windows": 2,
+        "iOS": 0
+      },
+      "India": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 16,
+        "Windows": 399396,
+        "iOS": 91
+      },
+      "Japan": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 0,
+        "Windows": 20,
+        "iOS": 0
+      },
+      "Mexico": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 2355,
+        "Windows": 427,
+        "iOS": 0
+      },
+      "Poland": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 148,
+        "Windows": 52696,
+        "iOS": 0
+      },
+      "Puerto Rico": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 27,
+        "Windows": 0,
+        "iOS": 0
+      },
+      "Singapore": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 0,
+        "Windows": 101,
+        "iOS": 0
+      },
+      "United Kingdom": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 526,
+        "Windows": 0,
+        "iOS": 0
+      },
+      "United States": {
+        "Android": 23,
+        "Linux": 46229,
+        "Mac OS X": 262087,
+        "Windows": 1060986,
+        "iOS": 1498
+      },
+      "Zimbabwe": {
+        "Android": 0,
+        "Linux": 0,
+        "Mac OS X": 0,
+        "Windows": 26,
+        "iOS": 0
+      }
+    },
+    "regional_preferences": {
+      "Alabama": {
+        "account-lines::widget:render": 16186,
+        "account-lines::configurable-table:render": 2804,
+        "account-lines:::view": 2987,
+        "dashboard:my-book:configurable-table:render": 5960,
+        "account-lines::layout:render": 2927,
+        "dashboard:my-book:widget:render": 6664,
+        "account:::view": 2649,
+        "session_start": 2306,
+        "session_end": 2300,
+        "application-window-opened": 1389
+      },
+      "Alajuela Province": {
+        "account-lines::widget:render": 33,
+        "account-lines::configurable-table:render": 29,
+        "account-lines:::view": 12,
+        "dashboard:my-book:configurable-table:render": 12,
+        "account-lines::layout:render": 12,
+        "dashboard:my-book:widget:render": 8,
+        "account:::view": 7,
+        "session_start": 7,
+        "session_end": 5,
+        "application-window-opened": 5
+      },
+      "Arizona": {
+        "account-lines::widget:render": 13376,
+        "account-lines::configurable-table:render": 9951,
+        "account-lines:::view": 3609,
+        "dashboard:my-book:configurable-table:render": 2168,
+        "account-lines::layout:render": 3214,
+        "dashboard:my-book:widget:render": 2264,
+        "account:::view": 1407,
+        "session_start": 729,
+        "session_end": 706,
+        "application-window-opened": 892
+      },
+      "Arkansas": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 4,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 3,
+        "account:::view": 0,
+        "session_start": 15,
+        "session_end": 15,
+        "application-window-opened": 7
+      },
+      "Birmingham": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 15,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 18,
+        "account:::view": 0,
+        "session_start": 2,
+        "session_end": 2,
+        "application-window-opened": 5
+      },
+      "Bouches-du-Rh\u00f4ne": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 4,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 3,
+        "account:::view": 0,
+        "session_start": 1,
+        "session_end": 0,
+        "application-window-opened": 1
+      },
+      "British Columbia": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 3,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 2,
+        "account:::view": 0,
+        "session_start": 3,
+        "session_end": 0,
+        "application-window-opened": 1
+      },
+      "California": {
+        "account-lines::widget:render": 14756,
+        "account-lines::configurable-table:render": 11759,
+        "account-lines:::view": 4091,
+        "dashboard:my-book:configurable-table:render": 6252,
+        "account-lines::layout:render": 3757,
+        "dashboard:my-book:widget:render": 5258,
+        "account:::view": 2077,
+        "session_start": 3231,
+        "session_end": 1933,
+        "application-window-opened": 2096
+      },
+      "Cambridgeshire": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 0,
+        "session_start": 1,
+        "session_end": 1,
+        "application-window-opened": 1
+      },
+      "Carmarthenshire": {
+        "account-lines::widget:render": 39,
+        "account-lines::configurable-table:render": 32,
+        "account-lines:::view": 13,
+        "dashboard:my-book:configurable-table:render": 12,
+        "account-lines::layout:render": 13,
+        "dashboard:my-book:widget:render": 8,
+        "account:::view": 10,
+        "session_start": 10,
+        "session_end": 10,
+        "application-window-opened": 6
+      },
+      "City of Westminster": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 0,
+        "session_start": 0,
+        "session_end": 1,
+        "application-window-opened": 0
+      },
+      "Colorado": {
+        "account-lines::widget:render": 3900,
+        "account-lines::configurable-table:render": 3724,
+        "account-lines:::view": 1292,
+        "dashboard:my-book:configurable-table:render": 1142,
+        "account-lines::layout:render": 1291,
+        "dashboard:my-book:widget:render": 1088,
+        "account:::view": 876,
+        "session_start": 730,
+        "session_end": 729,
+        "application-window-opened": 177
+      },
+      "Connecticut": {
+        "account-lines::widget:render": 3229,
+        "account-lines::configurable-table:render": 2067,
+        "account-lines:::view": 953,
+        "dashboard:my-book:configurable-table:render": 1138,
+        "account-lines::layout:render": 846,
+        "dashboard:my-book:widget:render": 1007,
+        "account:::view": 464,
+        "session_start": 489,
+        "session_end": 490,
+        "application-window-opened": 1103
+      },
+      "District of Columbia": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 3,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 5,
+        "account:::view": 0,
+        "session_start": 21,
+        "session_end": 21,
+        "application-window-opened": 13
+      },
+      "Ealing": {
+        "account-lines::widget:render": 5,
+        "account-lines::configurable-table:render": 4,
+        "account-lines:::view": 1,
+        "dashboard:my-book:configurable-table:render": 2,
+        "account-lines::layout:render": 1,
+        "dashboard:my-book:widget:render": 1,
+        "account:::view": 1,
+        "session_start": 3,
+        "session_end": 2,
+        "application-window-opened": 4
+      },
+      "England": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 3,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 5,
+        "account:::view": 0,
+        "session_start": 1,
+        "session_end": 1,
+        "application-window-opened": 1
+      },
+      "Florida": {
+        "account-lines::widget:render": 10366,
+        "account-lines::configurable-table:render": 9416,
+        "account-lines:::view": 3616,
+        "dashboard:my-book:configurable-table:render": 2306,
+        "account-lines::layout:render": 3556,
+        "dashboard:my-book:widget:render": 1905,
+        "account:::view": 2508,
+        "session_start": 2668,
+        "session_end": 2468,
+        "application-window-opened": 1477
+      },
+      "Georgia": {
+        "account-lines::widget:render": 18288,
+        "account-lines::configurable-table:render": 14861,
+        "account-lines:::view": 5016,
+        "dashboard:my-book:configurable-table:render": 3802,
+        "account-lines::layout:render": 4825,
+        "dashboard:my-book:widget:render": 3401,
+        "account:::view": 3118,
+        "session_start": 2371,
+        "session_end": 2357,
+        "application-window-opened": 1436
+      },
+      "Hampshire": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 0,
+        "session_start": 2,
+        "session_end": 1,
+        "application-window-opened": 1
+      },
+      "Harare": {
+        "account-lines::widget:render": 6,
+        "account-lines::configurable-table:render": 7,
+        "account-lines:::view": 2,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 2,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 1,
+        "session_start": 2,
+        "session_end": 2,
+        "application-window-opened": 0
+      },
+      "Hesse": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 0,
+        "session_start": 1,
+        "session_end": 0,
+        "application-window-opened": 0
+      },
+      "Illinois": {
+        "account-lines::widget:render": 24051,
+        "account-lines::configurable-table:render": 7115,
+        "account-lines:::view": 5198,
+        "dashboard:my-book:configurable-table:render": 6238,
+        "account-lines::layout:render": 5041,
+        "dashboard:my-book:widget:render": 6118,
+        "account:::view": 4329,
+        "session_start": 3530,
+        "session_end": 3508,
+        "application-window-opened": 2779
+      },
+      "Indiana": {
+        "account-lines::widget:render": 778,
+        "account-lines::configurable-table:render": 191,
+        "account-lines:::view": 179,
+        "dashboard:my-book:configurable-table:render": 99,
+        "account-lines::layout:render": 174,
+        "dashboard:my-book:widget:render": 89,
+        "account:::view": 139,
+        "session_start": 164,
+        "session_end": 160,
+        "application-window-opened": 73
+      },
+      "Iowa": {
+        "account-lines::widget:render": 21000,
+        "account-lines::configurable-table:render": 16341,
+        "account-lines:::view": 3967,
+        "dashboard:my-book:configurable-table:render": 5186,
+        "account-lines::layout:render": 3966,
+        "dashboard:my-book:widget:render": 4419,
+        "account:::view": 2420,
+        "session_start": 2277,
+        "session_end": 2256,
+        "application-window-opened": 967
+      },
+      "Kansas": {
+        "account-lines::widget:render": 2598,
+        "account-lines::configurable-table:render": 2201,
+        "account-lines:::view": 630,
+        "dashboard:my-book:configurable-table:render": 939,
+        "account-lines::layout:render": 594,
+        "dashboard:my-book:widget:render": 831,
+        "account:::view": 269,
+        "session_start": 88,
+        "session_end": 88,
+        "application-window-opened": 63
+      },
+      "Kujawsko-Pomorskie": {
+        "account-lines::widget:render": 980,
+        "account-lines::configurable-table:render": 759,
+        "account-lines:::view": 332,
+        "dashboard:my-book:configurable-table:render": 81,
+        "account-lines::layout:render": 333,
+        "dashboard:my-book:widget:render": 58,
+        "account:::view": 205,
+        "session_start": 223,
+        "session_end": 223,
+        "application-window-opened": 105
+      },
+      "Lambeth": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 2,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 6,
+        "account:::view": 0,
+        "session_start": 0,
+        "session_end": 0,
+        "application-window-opened": 2
+      },
+      "Lesser Poland": {
+        "account-lines::widget:render": 227,
+        "account-lines::configurable-table:render": 238,
+        "account-lines:::view": 76,
+        "dashboard:my-book:configurable-table:render": 24,
+        "account-lines::layout:render": 76,
+        "dashboard:my-book:widget:render": 16,
+        "account:::view": 74,
+        "session_start": 21,
+        "session_end": 21,
+        "application-window-opened": 18
+      },
+      "Louisiana": {
+        "account-lines::widget:render": 51,
+        "account-lines::configurable-table:render": 55,
+        "account-lines:::view": 17,
+        "dashboard:my-book:configurable-table:render": 4,
+        "account-lines::layout:render": 17,
+        "dashboard:my-book:widget:render": 4,
+        "account:::view": 10,
+        "session_start": 11,
+        "session_end": 11,
+        "application-window-opened": 10
+      },
+      "Lower Silesia": {
+        "account-lines::widget:render": 8656,
+        "account-lines::configurable-table:render": 8836,
+        "account-lines:::view": 2930,
+        "dashboard:my-book:configurable-table:render": 2507,
+        "account-lines::layout:render": 2918,
+        "dashboard:my-book:widget:render": 2223,
+        "account:::view": 2126,
+        "session_start": 1258,
+        "session_end": 1249,
+        "application-window-opened": 928
+      },
+      "Lubusz": {
+        "account-lines::widget:render": 822,
+        "account-lines::configurable-table:render": 821,
+        "account-lines:::view": 275,
+        "dashboard:my-book:configurable-table:render": 124,
+        "account-lines::layout:render": 274,
+        "dashboard:my-book:widget:render": 98,
+        "account:::view": 184,
+        "session_start": 127,
+        "session_end": 127,
+        "application-window-opened": 101
+      },
+      "Maharashtra": {
+        "account-lines::widget:render": 115912,
+        "account-lines::configurable-table:render": 83509,
+        "account-lines:::view": 36047,
+        "dashboard:my-book:configurable-table:render": 2513,
+        "account-lines::layout:render": 36066,
+        "dashboard:my-book:widget:render": 1797,
+        "account:::view": 16112,
+        "session_start": 7288,
+        "session_end": 7280,
+        "application-window-opened": 8544
+      },
+      "Maryland": {
+        "account-lines::widget:render": 319,
+        "account-lines::configurable-table:render": 258,
+        "account-lines:::view": 61,
+        "dashboard:my-book:configurable-table:render": 169,
+        "account-lines::layout:render": 61,
+        "dashboard:my-book:widget:render": 167,
+        "account:::view": 37,
+        "session_start": 80,
+        "session_end": 72,
+        "application-window-opened": 28
+      },
+      "Massachusetts": {
+        "account-lines::widget:render": 2973,
+        "account-lines::configurable-table:render": 1129,
+        "account-lines:::view": 680,
+        "dashboard:my-book:configurable-table:render": 1507,
+        "account-lines::layout:render": 591,
+        "dashboard:my-book:widget:render": 1744,
+        "account:::view": 388,
+        "session_start": 521,
+        "session_end": 515,
+        "application-window-opened": 511
+      },
+      "Mazovia": {
+        "account-lines::widget:render": 327,
+        "account-lines::configurable-table:render": 270,
+        "account-lines:::view": 112,
+        "dashboard:my-book:configurable-table:render": 41,
+        "account-lines::layout:render": 112,
+        "dashboard:my-book:widget:render": 30,
+        "account:::view": 52,
+        "session_start": 59,
+        "session_end": 59,
+        "application-window-opened": 43
+      },
+      "Mexico City": {
+        "account-lines::widget:render": 436,
+        "account-lines::configurable-table:render": 277,
+        "account-lines:::view": 158,
+        "dashboard:my-book:configurable-table:render": 153,
+        "account-lines::layout:render": 148,
+        "dashboard:my-book:widget:render": 167,
+        "account:::view": 76,
+        "session_start": 114,
+        "session_end": 110,
+        "application-window-opened": 113
+      },
+      "Michigan": {
+        "account-lines::widget:render": 2230,
+        "account-lines::configurable-table:render": 2256,
+        "account-lines:::view": 680,
+        "dashboard:my-book:configurable-table:render": 206,
+        "account-lines::layout:render": 680,
+        "dashboard:my-book:widget:render": 148,
+        "account:::view": 625,
+        "session_start": 443,
+        "session_end": 441,
+        "application-window-opened": 95
+      },
+      "Minnesota": {
+        "account-lines::widget:render": 76,
+        "account-lines::configurable-table:render": 30,
+        "account-lines:::view": 19,
+        "dashboard:my-book:configurable-table:render": 98,
+        "account-lines::layout:render": 24,
+        "dashboard:my-book:widget:render": 92,
+        "account:::view": 8,
+        "session_start": 72,
+        "session_end": 71,
+        "application-window-opened": 22
+      },
+      "Mississippi": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 0,
+        "session_start": 1,
+        "session_end": 0,
+        "application-window-opened": 2
+      },
+      "Missouri": {
+        "account-lines::widget:render": 2135,
+        "account-lines::configurable-table:render": 982,
+        "account-lines:::view": 400,
+        "dashboard:my-book:configurable-table:render": 3289,
+        "account-lines::layout:render": 401,
+        "dashboard:my-book:widget:render": 3133,
+        "account:::view": 342,
+        "session_start": 736,
+        "session_end": 731,
+        "application-window-opened": 143
+      },
+      "Montana": {
+        "account-lines::widget:render": 3,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 3,
+        "dashboard:my-book:configurable-table:render": 4,
+        "account-lines::layout:render": 3,
+        "dashboard:my-book:widget:render": 4,
+        "account:::view": 3,
+        "session_start": 5,
+        "session_end": 5,
+        "application-window-opened": 4
+      },
+      "M\u00e9xico": {
+        "account-lines::widget:render": 57,
+        "account-lines::configurable-table:render": 33,
+        "account-lines:::view": 15,
+        "dashboard:my-book:configurable-table:render": 11,
+        "account-lines::layout:render": 15,
+        "dashboard:my-book:widget:render": 16,
+        "account:::view": 9,
+        "session_start": 10,
+        "session_end": 11,
+        "application-window-opened": 6
+      },
+      "National Capital Territory of Delhi": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 8,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 6,
+        "account:::view": 0,
+        "session_start": 2,
+        "session_end": 0,
+        "application-window-opened": 2
+      },
+      "Nebraska": {
+        "account-lines::widget:render": 263,
+        "account-lines::configurable-table:render": 182,
+        "account-lines:::view": 61,
+        "dashboard:my-book:configurable-table:render": 24,
+        "account-lines::layout:render": 61,
+        "dashboard:my-book:widget:render": 17,
+        "account:::view": 51,
+        "session_start": 38,
+        "session_end": 38,
+        "application-window-opened": 16
+      },
+      "Nevada": {
+        "account-lines::widget:render": 210,
+        "account-lines::configurable-table:render": 100,
+        "account-lines:::view": 66,
+        "dashboard:my-book:configurable-table:render": 41,
+        "account-lines::layout:render": 56,
+        "dashboard:my-book:widget:render": 34,
+        "account:::view": 43,
+        "session_start": 33,
+        "session_end": 31,
+        "application-window-opened": 15
+      },
+      "New Hampshire": {
+        "account-lines::widget:render": 6,
+        "account-lines::configurable-table:render": 6,
+        "account-lines:::view": 2,
+        "dashboard:my-book:configurable-table:render": 6,
+        "account-lines::layout:render": 2,
+        "dashboard:my-book:widget:render": 4,
+        "account:::view": 2,
+        "session_start": 3,
+        "session_end": 3,
+        "application-window-opened": 2
+      },
+      "New Jersey": {
+        "account-lines::widget:render": 5136,
+        "account-lines::configurable-table:render": 3867,
+        "account-lines:::view": 1149,
+        "dashboard:my-book:configurable-table:render": 1814,
+        "account-lines::layout:render": 1148,
+        "dashboard:my-book:widget:render": 1631,
+        "account:::view": 877,
+        "session_start": 611,
+        "session_end": 598,
+        "application-window-opened": 747
+      },
+      "New York": {
+        "account-lines::widget:render": 10500,
+        "account-lines::configurable-table:render": 5880,
+        "account-lines:::view": 2728,
+        "dashboard:my-book:configurable-table:render": 2343,
+        "account-lines::layout:render": 2630,
+        "dashboard:my-book:widget:render": 2553,
+        "account:::view": 1087,
+        "session_start": 996,
+        "session_end": 988,
+        "application-window-opened": 1160
+      },
+      "North Carolina": {
+        "account-lines::widget:render": 10027,
+        "account-lines::configurable-table:render": 9486,
+        "account-lines:::view": 3420,
+        "dashboard:my-book:configurable-table:render": 1393,
+        "account-lines::layout:render": 2796,
+        "dashboard:my-book:widget:render": 1120,
+        "account:::view": 2086,
+        "session_start": 1376,
+        "session_end": 1369,
+        "application-window-opened": 716
+      },
+      "Ohio": {
+        "account-lines::widget:render": 6611,
+        "account-lines::configurable-table:render": 4652,
+        "account-lines:::view": 1254,
+        "dashboard:my-book:configurable-table:render": 4654,
+        "account-lines::layout:render": 1194,
+        "dashboard:my-book:widget:render": 4305,
+        "account:::view": 567,
+        "session_start": 1971,
+        "session_end": 630,
+        "application-window-opened": 1257
+      },
+      "Oklahoma": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 0,
+        "session_start": 9,
+        "session_end": 5,
+        "application-window-opened": 5
+      },
+      "Ontario": {
+        "account-lines::widget:render": 5794,
+        "account-lines::configurable-table:render": 3384,
+        "account-lines:::view": 1864,
+        "dashboard:my-book:configurable-table:render": 1170,
+        "account-lines::layout:render": 1290,
+        "dashboard:my-book:widget:render": 1162,
+        "account:::view": 605,
+        "session_start": 461,
+        "session_end": 496,
+        "application-window-opened": 1353
+      },
+      "Oregon": {
+        "account-lines::widget:render": 5,
+        "account-lines::configurable-table:render": 2,
+        "account-lines:::view": 1,
+        "dashboard:my-book:configurable-table:render": 2705,
+        "account-lines::layout:render": 1,
+        "dashboard:my-book:widget:render": 2034,
+        "account:::view": 1,
+        "session_start": 1322,
+        "session_end": 24,
+        "application-window-opened": 688
+      },
+      "Osaka": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 0,
+        "session_start": 3,
+        "session_end": 3,
+        "application-window-opened": 2
+      },
+      "Pennsylvania": {
+        "account-lines::widget:render": 24,
+        "account-lines::configurable-table:render": 8,
+        "account-lines:::view": 14,
+        "dashboard:my-book:configurable-table:render": 741,
+        "account-lines::layout:render": 14,
+        "dashboard:my-book:widget:render": 558,
+        "account:::view": 9,
+        "session_start": 82,
+        "session_end": 74,
+        "application-window-opened": 214
+      },
+      "Quebec": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 7,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 9,
+        "account:::view": 0,
+        "session_start": 5,
+        "session_end": 2,
+        "application-window-opened": 2
+      },
+      "Quer\u00e9taro": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 0,
+        "session_start": 2,
+        "session_end": 2,
+        "application-window-opened": 1
+      },
+      "Rhode Island": {
+        "account-lines::widget:render": 40,
+        "account-lines::configurable-table:render": 8,
+        "account-lines:::view": 8,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 8,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 8,
+        "session_start": 0,
+        "session_end": 0,
+        "application-window-opened": 8
+      },
+      "Silesia": {
+        "account-lines::widget:render": 845,
+        "account-lines::configurable-table:render": 943,
+        "account-lines:::view": 286,
+        "dashboard:my-book:configurable-table:render": 115,
+        "account-lines::layout:render": 286,
+        "dashboard:my-book:widget:render": 106,
+        "account:::view": 236,
+        "session_start": 74,
+        "session_end": 74,
+        "application-window-opened": 69
+      },
+      "South Carolina": {
+        "account-lines::widget:render": 18838,
+        "account-lines::configurable-table:render": 14261,
+        "account-lines:::view": 3081,
+        "dashboard:my-book:configurable-table:render": 7206,
+        "account-lines::layout:render": 2932,
+        "dashboard:my-book:widget:render": 5810,
+        "account:::view": 2100,
+        "session_start": 1513,
+        "session_end": 1501,
+        "application-window-opened": 2010
+      },
+      "South Corsica": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 10,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 12,
+        "account:::view": 0,
+        "session_start": 2,
+        "session_end": 3,
+        "application-window-opened": 1
+      },
+      "Tennessee": {
+        "account-lines::widget:render": 70889,
+        "account-lines::configurable-table:render": 13898,
+        "account-lines:::view": 14545,
+        "dashboard:my-book:configurable-table:render": 23296,
+        "account-lines::layout:render": 13983,
+        "dashboard:my-book:widget:render": 24387,
+        "account:::view": 12268,
+        "session_start": 14522,
+        "session_end": 14499,
+        "application-window-opened": 11347
+      },
+      "Texas": {
+        "account-lines::widget:render": 11734,
+        "account-lines::configurable-table:render": 6118,
+        "account-lines:::view": 1958,
+        "dashboard:my-book:configurable-table:render": 3278,
+        "account-lines::layout:render": 1927,
+        "dashboard:my-book:widget:render": 3391,
+        "account:::view": 1490,
+        "session_start": 1707,
+        "session_end": 1692,
+        "application-window-opened": 1062
+      },
+      "Utah": {
+        "account-lines::widget:render": 1708,
+        "account-lines::configurable-table:render": 1474,
+        "account-lines:::view": 572,
+        "dashboard:my-book:configurable-table:render": 8,
+        "account-lines::layout:render": 572,
+        "dashboard:my-book:widget:render": 6,
+        "account:::view": 263,
+        "session_start": 230,
+        "session_end": 227,
+        "application-window-opened": 197
+      },
+      "Virginia": {
+        "account-lines::widget:render": 15521,
+        "account-lines::configurable-table:render": 10302,
+        "account-lines:::view": 2830,
+        "dashboard:my-book:configurable-table:render": 9167,
+        "account-lines::layout:render": 2806,
+        "dashboard:my-book:widget:render": 7774,
+        "account:::view": 1883,
+        "session_start": 3693,
+        "session_end": 952,
+        "application-window-opened": 2185
+      },
+      "Washington": {
+        "account-lines::widget:render": 1138,
+        "account-lines::configurable-table:render": 453,
+        "account-lines:::view": 268,
+        "dashboard:my-book:configurable-table:render": 185,
+        "account-lines::layout:render": 268,
+        "dashboard:my-book:widget:render": 171,
+        "account:::view": 100,
+        "session_start": 282,
+        "session_end": 256,
+        "application-window-opened": 292
+      },
+      "Wisconsin": {
+        "account-lines::widget:render": 3,
+        "account-lines::configurable-table:render": 1,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 1,
+        "session_start": 1,
+        "session_end": 1,
+        "application-window-opened": 0
+      },
+      "Wyoming": {
+        "account-lines::widget:render": 0,
+        "account-lines::configurable-table:render": 0,
+        "account-lines:::view": 0,
+        "dashboard:my-book:configurable-table:render": 0,
+        "account-lines::layout:render": 0,
+        "dashboard:my-book:widget:render": 0,
+        "account:::view": 0,
+        "session_start": 1,
+        "session_end": 0,
+        "application-window-opened": 0
+      },
+      "\u0141\u00f3d\u017a Voivodeship": {
+        "account-lines::widget:render": 6,
+        "account-lines::configurable-table:render": 8,
+        "account-lines:::view": 2,
+        "dashboard:my-book:configurable-table:render": 3,
+        "account-lines::layout:render": 2,
+        "dashboard:my-book:widget:render": 2,
+        "account:::view": 2,
+        "session_start": 3,
+        "session_end": 3,
+        "application-window-opened": 1
+      }
+    },
+    "city_patterns": [
+      {
+        "city": "Mumbai",
+        "unique_users": 37,
+        "unique_sessions": 7333,
+        "total_events": 399477,
+        "events_per_user": 10796.675675675675,
+        "sessions_per_user": 198.1891891891892
+      },
+      {
+        "city": "Nashville",
+        "unique_users": 93,
+        "unique_sessions": 11241,
+        "total_events": 286693,
+        "events_per_user": 3082.7204301075267,
+        "sessions_per_user": 120.87096774193549
+      },
+      {
+        "city": "Spring Hill",
+        "unique_users": 68,
+        "unique_sessions": 2687,
+        "total_events": 74781,
+        "events_per_user": 1099.7205882352941,
+        "sessions_per_user": 39.51470588235294
+      },
+      {
+        "city": "Chicago",
+        "unique_users": 66,
+        "unique_sessions": 2597,
+        "total_events": 71692,
+        "events_per_user": 1086.2424242424242,
+        "sessions_per_user": 39.34848484848485
+      },
+      {
+        "city": "Birmingham",
+        "unique_users": 19,
+        "unique_sessions": 1713,
+        "total_events": 49854,
+        "events_per_user": 2623.8947368421054,
+        "sessions_per_user": 90.15789473684211
+      },
+      {
+        "city": "Greenville",
+        "unique_users": 18,
+        "unique_sessions": 988,
+        "total_events": 45706,
+        "events_per_user": 2539.222222222222,
+        "sessions_per_user": 54.888888888888886
+      },
+      {
+        "city": "Alexandria",
+        "unique_users": 6,
+        "unique_sessions": 494,
+        "total_events": 38848,
+        "events_per_user": 6474.666666666667,
+        "sessions_per_user": 82.33333333333333
+      },
+      {
+        "city": "Wroclaw",
+        "unique_users": 12,
+        "unique_sessions": 1144,
+        "total_events": 33788,
+        "events_per_user": 2815.6666666666665,
+        "sessions_per_user": 95.33333333333333
+      },
+      {
+        "city": "Phoenix",
+        "unique_users": 16,
+        "unique_sessions": 463,
+        "total_events": 31894,
+        "events_per_user": 1993.375,
+        "sessions_per_user": 28.9375
+      },
+      {
+        "city": "Des Moines",
+        "unique_users": 10,
+        "unique_sessions": 841,
+        "total_events": 27699,
+        "events_per_user": 2769.9,
+        "sessions_per_user": 84.1
+      },
+      {
+        "city": "Columbus",
+        "unique_users": 16,
+        "unique_sessions": 1829,
+        "total_events": 27321,
+        "events_per_user": 1707.5625,
+        "sessions_per_user": 114.3125
+      },
+      {
+        "city": "New York",
+        "unique_users": 66,
+        "unique_sessions": 676,
+        "total_events": 22635,
+        "events_per_user": 342.95454545454544,
+        "sessions_per_user": 10.242424242424242
+      },
+      {
+        "city": "Aurora",
+        "unique_users": 4,
+        "unique_sessions": 916,
+        "total_events": 22063,
+        "events_per_user": 5515.75,
+        "sessions_per_user": 229.0
+      },
+      {
+        "city": "Charlotte",
+        "unique_users": 5,
+        "unique_sessions": 579,
+        "total_events": 21730,
+        "events_per_user": 4346.0,
+        "sessions_per_user": 115.8
+      },
+      {
+        "city": "Miami",
+        "unique_users": 50,
+        "unique_sessions": 567,
+        "total_events": 20073,
+        "events_per_user": 401.46,
+        "sessions_per_user": 11.34
+      },
+      {
+        "city": "San Francisco",
+        "unique_users": 16,
+        "unique_sessions": 443,
+        "total_events": 18038,
+        "events_per_user": 1127.375,
+        "sessions_per_user": 27.6875
+      },
+      {
+        "city": "McCalla",
+        "unique_users": 11,
+        "unique_sessions": 551,
+        "total_events": 16292,
+        "events_per_user": 1481.090909090909,
+        "sessions_per_user": 50.09090909090909
+      },
+      {
+        "city": "Knoxville",
+        "unique_users": 6,
+        "unique_sessions": 482,
+        "total_events": 14866,
+        "events_per_user": 2477.6666666666665,
+        "sessions_per_user": 80.33333333333333
+      },
+      {
+        "city": "Ashburn",
+        "unique_users": 36,
+        "unique_sessions": 1616,
+        "total_events": 14388,
+        "events_per_user": 399.6666666666667,
+        "sessions_per_user": 44.888888888888886
+      },
+      {
+        "city": "Urbandale",
+        "unique_users": 2,
+        "unique_sessions": 284,
+        "total_events": 13587,
+        "events_per_user": 6793.5,
+        "sessions_per_user": 142.0
+      }
+    ]
+  },
+  "data_quality_analysis": {
+    "missing_values": {
+      "counts": {
+        "$insert_id": 0,
+        "amplitude_id": 0,
+        "app": 0,
+        "city": 33543,
+        "client_event_time": 0,
+        "client_upload_time": 0,
+        "country": 0,
+        "data": 0,
+        "data_type": 0,
+        "device_family": 0,
+        "device_id": 0,
+        "device_type": 290193,
+        "dma": 512300,
+        "event_id": 0,
+        "event_properties": 0,
+        "event_time": 0,
+        "event_type": 0,
+        "language": 0,
+        "library": 0,
+        "os_name": 0,
+        "os_version": 0,
+        "platform": 0,
+        "processed_time": 0,
+        "region": 16521,
+        "server_received_time": 0,
+        "server_upload_time": 0,
+        "session_id": 0,
+        "user_id": 7389,
+        "user_properties": 0,
+        "uuid": 0,
+        "hour": 0,
+        "weekday": 0,
+        "month": 0,
+        "date": 0,
+        "year_month": 0
+      },
+      "percentages": {
+        "$insert_id": 0.0,
+        "amplitude_id": 0.0,
+        "app": 0.0,
+        "city": 1.8130283134669363,
+        "client_event_time": 0.0,
+        "client_upload_time": 0.0,
+        "country": 0.0,
+        "data": 0.0,
+        "data_type": 0.0,
+        "device_family": 0.0,
+        "device_id": 0.0,
+        "device_type": 15.685183954026494,
+        "dma": 27.69026041168385,
+        "event_id": 0.0,
+        "event_properties": 0.0,
+        "event_time": 0.0,
+        "event_type": 0.0,
+        "language": 0.0,
+        "library": 0.0,
+        "os_name": 0.0,
+        "os_version": 0.0,
+        "platform": 0.0,
+        "processed_time": 0.0,
+        "region": 0.8929744139399355,
+        "server_received_time": 0.0,
+        "server_upload_time": 0.0,
+        "session_id": 0.0,
+        "user_id": 0.39938187425713834,
+        "user_properties": 0.0,
+        "uuid": 0.0,
+        "hour": 0.0,
+        "weekday": 0.0,
+        "month": 0.0,
+        "date": 0.0,
+        "year_month": 0.0
+      }
+    },
+    "unique_value_counts": {
+      "$insert_id": {
+        "unique_count": 1850108,
+        "top_values": {
+          "77c8efdb-f5bc-4a17-a59d-e9813cd39270": 2,
+          "538ab3f8-09df-4750-90e0-abe8ad8f6a0c": 1,
+          "5dae3311-affb-422c-8fec-1c5539b68912": 1,
+          "5df0bfb2-6999-43fb-b883-17ef72d258ad": 1,
+          "522d2ce9-6ba9-49ae-9add-cbae2861755d": 1,
+          "5f811132-d67d-4139-9cc6-d93ac287f844": 1,
+          "3568cc57-a8d6-4748-8d09-51f49a66425d": 1,
+          "84953257-d359-45db-abaf-a60e6934ae2b": 1,
+          "31b62123-c9ae-48b2-b774-4e129edc59c0": 1,
+          "6570d130-dc26-4d32-8138-aacb117a4633": 1
+        }
+      },
+      "city": {
+        "unique_count": 467,
+        "top_values": {
+          "Mumbai": 399477,
+          "Nashville": 286693,
+          "Spring Hill": 74781,
+          "Chicago": 71692,
+          "Birmingham": 49854,
+          "Greenville": 45706,
+          "Alexandria": 38848,
+          "Wroclaw": 33788,
+          "Phoenix": 31894,
+          "Des Moines": 27699
+        }
+      },
+      "country": {
+        "unique_count": 13,
+        "top_values": {
+          "United States": 1370823,
+          "India": 399503,
+          "Poland": 52844,
+          "Canada": 23210,
+          "Mexico": 2782,
+          "United Kingdom": 526,
+          "Costa Rica": 167,
+          "Singapore": 101,
+          "France": 78,
+          "Puerto Rico": 27
+        }
+      },
+      "data": {
+        "unique_count": 2,
+        "top_values": {
+          "{'path': '/2/httpapi', 'group_first_event': {}, 'group_ids': {}}": 1830130,
+          "{'path': '/2/httpapi', 'user_properties_updated': 'True', 'group_first_event': {}, 'group_ids': {}}": 19979
+        }
+      },
+      "data_type": {
+        "unique_count": 1,
+        "top_values": {
+          "event": 1850109
+        }
+      },
+      "device_family": {
+        "unique_count": 5,
+        "top_values": {
+          "Windows": 1513654,
+          "Mac OS X": 288172,
+          "Linux": 46239,
+          "iOS": 2021,
+          "Android": 23
+        }
+      },
+      "device_id": {
+        "unique_count": 8015,
+        "top_values": {
+          "3aec3262-1bdd-4f39-ae25-5df72f3fbae6": 24486,
+          "a8806aff-7404-4c48-96f3-6bce38fe5f66": 22406,
+          "3630e88e-c688-4abc-b81d-11da1cbebf47": 21747,
+          "08deb711-f4f2-40f6-8939-e1673bf4e84c": 21036,
+          "107661f8-dbfb-4e97-9ad4-b97218423080": 20382,
+          "0e96d208-bf73-44c8-be78-a74c1123c3f9": 20371,
+          "f32dd30f-34a2-48a9-8905-cce8ab9ec449": 19966,
+          "a8bf97c2-480e-41a2-bce9-9b54b4c10b01": 17661,
+          "d74d587c-f0b5-4a9e-8e56-cd0801842932": 17093,
+          "5bb73f50-5f95-4c9f-92a8-a81b65f6bda1": 16073
+        }
+      },
+      "device_type": {
+        "unique_count": 3,
+        "top_values": {
+          "Windows": 1513654,
+          "Linux": 46239,
+          "Android": 23
+        }
+      },
+      "dma": {
+        "unique_count": 97,
+        "top_values": {
+          "Nashville, TN": 366592,
+          "Chicago, IL": 94724,
+          "Des Moines-Ames, IA": 83549,
+          "Greenville-Spartanburg, SC": 69668,
+          "Atlanta, GA": 67746,
+          "Birmingham, AL": 67256,
+          "New York, NY": 63715,
+          "Washington, DC (Hagerstown, MD)": 62809,
+          "Phoenix, AZ": 49749,
+          "San Francisco-Oakland-San Jose, CA": 31538
+        }
+      },
+      "event_properties": {
+        "unique_count": 490096,
+        "top_values": {
+          "{}": 134094,
+          "{'rowModel': 'client', 'slug': 'documents-and-compliance-table'}": 17627,
+          "{'slug': 'my-book'}": 5397,
+          "{'slug': 'general'}": 4911,
+          "{'rowModel': 'client', 'id': 'de54a567-d72b-44a9-8658-15c4a0299738'}": 4596,
+          "{'displayName': 'Basic Vehicle Details (Policy)', 'tableId': 'de54a567-d72b-44a9-8658-15c4a0299738', 'id': 'b87fadc2-83ff-4d76-b940-3dd78d0df21f', 'type': 'table'}": 4595,
+          "{'displayName': 'Policy Detail Card', 'id': 'e59fbad1-399d-41fe-9c99-f4158e175c01', 'type': 'built-in', 'slug': 'policy-detail-card'}": 3994,
+          "{'slug': 'auto'}": 3868,
+          "{'rowModel': 'legacyServer', 'slug': 'submission-history'}": 3481,
+          "{'rowModel': 'client', 'id': '0d0df5a0-0460-45c8-b3e9-843abd1dd88e'}": 3344
+        }
+      },
+      "event_type": {
+        "unique_count": 256,
+        "top_values": {
+          "account-lines::widget:render": 428058,
+          "account-lines::configurable-table:render": 257224,
+          "account-lines:::view": 108249,
+          "dashboard:my-book:configurable-table:render": 105443,
+          "account-lines::layout:render": 104682,
+          "dashboard:my-book:widget:render": 99140,
+          "account:::view": 64694,
+          "session_start": 58762,
+          "session_end": 51610,
+          "application-window-opened": 47245
+        }
+      },
+      "language": {
+        "unique_count": 3,
+        "top_values": {
+          "English": 1826082,
+          "Polish": 22051,
+          "Spanish": 1976
+        }
+      },
+      "library": {
+        "unique_count": 1,
+        "top_values": {
+          "amplitude-ts/2.7.2": 1850109
+        }
+      },
+      "os_name": {
+        "unique_count": 10,
+        "top_values": {
+          "Chrome": 1707543,
+          "Edge": 131340,
+          "Firefox": 8543,
+          "Mobile Safari": 1822,
+          "Safari": 637,
+          "Chrome Mobile iOS": 163,
+          "Edge Mobile": 36,
+          "Chrome Mobile": 22,
+          "HeadlessChrome": 2,
+          "android": 1
+        }
+      },
+      "platform": {
+        "unique_count": 1,
+        "top_values": {
+          "Web": 1850109
+        }
+      },
+      "region": {
+        "unique_count": 69,
+        "top_values": {
+          "Maharashtra": 399477,
+          "Tennessee": 383475,
+          "Illinois": 103032,
+          "Iowa": 95680,
+          "Georgia": 75776,
+          "South Carolina": 74163,
+          "Virginia": 70494,
+          "Alabama": 68398,
+          "California": 66066,
+          "Florida": 60664
+        }
+      },
+      "user_id": {
+        "unique_count": 868,
+        "top_values": {
+          "0c4896b7-08fa-4cb4-852f-27ad584f0864": 45035,
+          "1b992a40-b2c3-4b69-a5bc-05711eeddd80": 39783,
+          "EMPTY": 31120,
+          "bb8fa1af-a540-4d0f-a633-569c61f01281": 26015,
+          "e309f160-ed02-4c6c-84bb-33bab8749186": 24486,
+          "1b7f0cbc-e5b9-494f-af08-f8e19df60576": 22362,
+          "c774e8c0-4817-4b51-962a-ac7c051d0470": 21852,
+          "b5e87951-22bd-4333-9a0d-ae28ecabe804": 21747,
+          "cfa20420-326e-4d5a-b202-c04084e785ad": 21036,
+          "6066f244-0707-4e85-9fc5-70e6fefdea0b": 20382
+        }
+      },
+      "user_properties": {
+        "unique_count": 520,
+        "top_values": {
+          "{'businessUnit': [], 'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'EMPTY', 'initial_utm_content': 'EMPTY', 'roles': ['underwriter'], 'isInternalUser': 'False', 'trackingVersion': '3.1', 'initial_utm_campaign': 'EMPTY', 'initial_twclid': 'EMPTY', 'initial_li_fat_id': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_rtd_cid': 'EMPTY', 'initial_fbclid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_referrer': 'EMPTY', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_utm_term': 'EMPTY', 'initial_ko_click_id': 'EMPTY'}": 512831,
+          "{'businessUnit': [], 'roles': ['underwriter'], 'trackingVersion': '3.1', 'initial_twclid': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_rtd_cid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_ko_click_id': 'EMPTY', 'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'EMPTY', 'initial_utm_content': 'EMPTY', 'isInternalUser': 'False', 'initial_utm_campaign': 'EMPTY', 'initial_li_fat_id': 'EMPTY', 'referrer': 'https://accounts.google.com/', 'initial_fbclid': 'EMPTY', 'initial_referrer': 'EMPTY', 'initial_utm_term': 'EMPTY', 'referring_domain': 'accounts.google.com'}": 135196,
+          "{'businessUnit': [], 'roles': ['underwriter'], 'trackingVersion': '3.1', 'initial_twclid': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_rtd_cid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_ko_click_id': 'EMPTY', 'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'EMPTY', 'initial_utm_content': 'EMPTY', 'isInternalUser': 'False', 'initial_utm_campaign': 'EMPTY', 'initial_li_fat_id': 'EMPTY', 'referrer': 'https://vru-auth.us.auth0.com/', 'initial_fbclid': 'EMPTY', 'initial_referrer': 'EMPTY', 'initial_utm_term': 'EMPTY', 'referring_domain': 'vru-auth.us.auth0.com'}": 103019,
+          "{'businessUnit': ['Xceedance Modeling'], 'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'EMPTY', 'initial_utm_content': 'EMPTY', 'roles': ['underwriter'], 'isInternalUser': 'False', 'trackingVersion': '3.1', 'initial_utm_campaign': 'EMPTY', 'initial_twclid': 'EMPTY', 'initial_li_fat_id': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_rtd_cid': 'EMPTY', 'initial_fbclid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_referrer': 'EMPTY', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_utm_term': 'EMPTY', 'initial_ko_click_id': 'EMPTY'}": 85657,
+          "{'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'EMPTY', 'businessUnit': [], 'initial_utm_content': 'EMPTY', 'roles': ['underwriter'], 'isInternalUser': 'False', 'initial_utm_campaign': 'EMPTY', 'trackingVersion': '3.1', 'initial_twclid': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_fbclid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_referrer': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_utm_term': 'EMPTY', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_ko_click_id': 'EMPTY'}": 69537,
+          "{'businessUnit': [], 'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'EMPTY', 'initial_utm_content': 'EMPTY', 'roles': ['admin'], 'isInternalUser': 'True', 'trackingVersion': '3.1', 'initial_utm_campaign': 'EMPTY', 'initial_twclid': 'EMPTY', 'initial_li_fat_id': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_rtd_cid': 'EMPTY', 'initial_fbclid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_referrer': 'EMPTY', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_utm_term': 'EMPTY', 'initial_ko_click_id': 'EMPTY'}": 53627,
+          "{'businessUnit': ['Xceedence'], 'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'EMPTY', 'initial_utm_content': 'EMPTY', 'roles': ['underwriter'], 'isInternalUser': 'False', 'trackingVersion': '3.1', 'initial_utm_campaign': 'EMPTY', 'initial_twclid': 'EMPTY', 'initial_li_fat_id': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_rtd_cid': 'EMPTY', 'initial_fbclid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_referrer': 'EMPTY', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_utm_term': 'EMPTY', 'initial_ko_click_id': 'EMPTY'}": 52135,
+          "{'businessUnit': [], 'roles': ['underwriter'], 'trackingVersion': '3.1', 'initial_twclid': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_rtd_cid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_ko_click_id': 'EMPTY', 'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'accounts.google.com', 'initial_utm_content': 'EMPTY', 'isInternalUser': 'False', 'initial_utm_campaign': 'EMPTY', 'initial_li_fat_id': 'EMPTY', 'referrer': 'https://accounts.google.com/', 'initial_fbclid': 'EMPTY', 'initial_referrer': 'https://accounts.google.com/', 'initial_utm_term': 'EMPTY', 'referring_domain': 'accounts.google.com'}": 50903,
+          "{'businessUnit': [], 'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'statics.teams.cdn.office.net', 'initial_utm_content': 'EMPTY', 'roles': ['underwriter'], 'isInternalUser': 'False', 'trackingVersion': '3.1', 'initial_utm_campaign': 'EMPTY', 'initial_twclid': 'EMPTY', 'initial_li_fat_id': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_rtd_cid': 'EMPTY', 'initial_fbclid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_referrer': 'https://statics.teams.cdn.office.net/', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_utm_term': 'EMPTY', 'initial_ko_click_id': 'EMPTY'}": 41459,
+          "{'businessUnit': ['AU Group'], 'roles': ['underwriter'], 'trackingVersion': '3.1', 'initial_twclid': 'EMPTY', 'initial_gclid': 'EMPTY', 'hostname': 'None', 'initial_utm_source': 'EMPTY', 'initial_dclid': 'EMPTY', 'initial_wbraid': 'EMPTY', 'initial_rtd_cid': 'EMPTY', 'initial_utm_id': 'EMPTY', 'initial_gbraid': 'EMPTY', 'initial_msclkid': 'EMPTY', 'initial_ttclid': 'EMPTY', 'initial_ko_click_id': 'EMPTY', 'initial_utm_medium': 'EMPTY', 'initial_referring_domain': 'EMPTY', 'initial_utm_content': 'EMPTY', 'isInternalUser': 'False', 'initial_utm_campaign': 'EMPTY', 'initial_li_fat_id': 'EMPTY', 'referrer': 'https://login.microsoftonline.com/', 'initial_fbclid': 'EMPTY', 'initial_referrer': 'EMPTY', 'initial_utm_term': 'EMPTY', 'referring_domain': 'login.microsoftonline.com'}": 37571
+        }
+      },
+      "uuid": {
+        "unique_count": 1850109,
+        "top_values": {
+          "006cfd50-7f9e-4ffa-85e8-720404db8247": 1,
+          "4d8ada7d-b821-4df3-bb9d-8d122f6c12b9": 1,
+          "dcdca6e5-d3d4-490d-8ec0-90d155ba6438": 1,
+          "0b3580df-51e3-4ab6-ad48-0822328fc6fd": 1,
+          "6bba7b30-f028-4e68-a4a1-5fca4700dcff": 1,
+          "cbd9ed54-7a0a-4407-9aac-183cd3bc8828": 1,
+          "8086ad48-5dfc-4925-ae33-b35975341dbb": 1,
+          "4a92c58f-1170-45e9-a8c6-cfe6d6ed8ffc": 1,
+          "e2583cfa-1737-4bb9-bc7d-3d7c4df2e2e6": 1,
+          "bd3532ad-dec2-4b7d-92f9-5b1008aa6f09": 1
+        }
+      },
+      "weekday": {
+        "unique_count": 7,
+        "top_values": {
+          "Thursday": 406228,
+          "Tuesday": 380958,
+          "Friday": 363600,
+          "Monday": 353517,
+          "Wednesday": 302410,
+          "Saturday": 25515,
+          "Sunday": 17881
+        }
+      },
+      "date": {
+        "unique_count": 102,
+        "top_values": {
+          "2025-01-27": 114013,
+          "2025-01-23": 108664,
+          "2025-01-16": 107691,
+          "2025-01-07": 101326,
+          "2025-01-22": 100787,
+          "2025-01-08": 100661,
+          "2025-01-13": 98953,
+          "2025-01-09": 98492,
+          "2025-01-14": 97942,
+          "2025-01-15": 97788
+        }
+      },
+      "year_month": {
+        "unique_count": 10,
+        "top_values": {
+          "2025-01": 1848074,
+          "2024-12": 881,
+          "2024-06": 435,
+          "2024-09": 260,
+          "2024-04": 180,
+          "2024-11": 82,
+          "2024-10": 65,
+          "2024-08": 56,
+          "2024-05": 44,
+          "2024-07": 32
+        }
+      }
+    },
+    "data_types": {
+      "$insert_id": "object",
+      "amplitude_id": "int64",
+      "app": "int64",
+      "city": "object",
+      "client_event_time": "datetime64[ns]",
+      "client_upload_time": "datetime64[ns]",
+      "country": "object",
+      "data": "object",
+      "data_type": "object",
+      "device_family": "object",
+      "device_id": "object",
+      "device_type": "object",
+      "dma": "object",
+      "event_id": "int64",
+      "event_properties": "object",
+      "event_time": "datetime64[ns]",
+      "event_type": "object",
+      "language": "object",
+      "library": "object",
+      "os_name": "object",
+      "os_version": "int64",
+      "platform": "object",
+      "processed_time": "datetime64[ns]",
+      "region": "object",
+      "server_received_time": "datetime64[ns]",
+      "server_upload_time": "datetime64[ns]",
+      "session_id": "int64",
+      "user_id": "object",
+      "user_properties": "object",
+      "uuid": "object",
+      "hour": "int32",
+      "weekday": "object",
+      "month": "int32",
+      "date": "object",
+      "year_month": "object"
+    },
+    "value_ranges": {
+      "amplitude_id": {
+        "count": 1850109.0,
+        "mean": 924971485901.4723,
+        "std": 84234445926.99701,
+        "min": 857540362349.0,
+        "25%": 857540513092.0,
+        "50%": 864218604808.0,
+        "75%": 1018933188183.0,
+        "max": 1110665498041.0
+      },
+      "app": {
+        "count": 1850109.0,
+        "mean": 591532.0,
+        "std": 0.0,
+        "min": 591532.0,
+        "25%": 591532.0,
+        "50%": 591532.0,
+        "75%": 591532.0,
+        "max": 591532.0
+      },
+      "event_id": {
+        "count": 1850109.0,
+        "mean": 24670.8842062819,
+        "std": 29626.112766577146,
+        "min": 0.0,
+        "25%": 5088.0,
+        "50%": 14489.0,
+        "75%": 34737.0,
+        "max": 197743.0
+      },
+      "os_version": {
+        "count": 1850109.0,
+        "mean": 130.90719898124922,
+        "std": 4.288230959114801,
+        "min": 4.0,
+        "25%": 131.0,
+        "50%": 131.0,
+        "75%": 131.0,
+        "max": 134.0
+      },
+      "session_id": {
+        "count": 1850109.0,
+        "mean": 1736952107363.7761,
+        "std": 789726870.4514515,
+        "min": 1713877756240.0,
+        "25%": 1736366927822.0,
+        "50%": 1736951359531.0,
+        "75%": 1737568712653.0,
+        "max": 1738097947927.0
+      }
+    },
+    "potential_outliers": {
+      "amplitude_id": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "app": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "event_id": {
+        "count": 97063,
+        "percentage": 5.24633953999467
+      },
+      "os_version": {
+        "count": 333648,
+        "percentage": 18.03396448533573
+      },
+      "session_id": {
+        "count": 1283,
+        "percentage": 0.06934726548543897
+      }
+    },
+    "temporal_patterns": {
+      "daily_event_counts": {
+        "2024-04-23": 179,
+        "2024-04-26": 1,
+        "2024-05-10": 1,
+        "2024-05-15": 1,
+        "2024-05-16": 30,
+        "2024-05-18": 1,
+        "2024-05-21": 11,
+        "2024-06-17": 1,
+        "2024-06-19": 1,
+        "2024-06-25": 1,
+        "2024-06-27": 432,
+        "2024-07-01": 1,
+        "2024-07-11": 7,
+        "2024-07-19": 5,
+        "2024-07-31": 19,
+        "2024-08-06": 4,
+        "2024-08-08": 1,
+        "2024-08-12": 48,
+        "2024-08-16": 1,
+        "2024-08-17": 1,
+        "2024-08-23": 1,
+        "2024-09-10": 257,
+        "2024-09-12": 1,
+        "2024-09-23": 2,
+        "2024-10-01": 52,
+        "2024-10-03": 2,
+        "2024-10-04": 2,
+        "2024-10-08": 2,
+        "2024-10-09": 1,
+        "2024-10-11": 1,
+        "2024-10-18": 2,
+        "2024-10-22": 1,
+        "2024-10-28": 1,
+        "2024-10-30": 1,
+        "2024-11-02": 1,
+        "2024-11-06": 1,
+        "2024-11-07": 3,
+        "2024-11-11": 1,
+        "2024-11-12": 1,
+        "2024-11-15": 2,
+        "2024-11-18": 15,
+        "2024-11-19": 14,
+        "2024-11-20": 31,
+        "2024-11-21": 3,
+        "2024-11-22": 1,
+        "2024-11-25": 5,
+        "2024-11-26": 3,
+        "2024-11-27": 1,
+        "2024-12-02": 2,
+        "2024-12-03": 2,
+        "2024-12-04": 7,
+        "2024-12-05": 7,
+        "2024-12-06": 4,
+        "2024-12-09": 4,
+        "2024-12-10": 5,
+        "2024-12-11": 11,
+        "2024-12-12": 10,
+        "2024-12-13": 24,
+        "2024-12-14": 1,
+        "2024-12-16": 8,
+        "2024-12-17": 26,
+        "2024-12-18": 18,
+        "2024-12-19": 206,
+        "2024-12-20": 17,
+        "2024-12-21": 2,
+        "2024-12-23": 22,
+        "2024-12-24": 62,
+        "2024-12-25": 2,
+        "2024-12-26": 30,
+        "2024-12-27": 50,
+        "2024-12-28": 5,
+        "2024-12-29": 10,
+        "2024-12-30": 74,
+        "2024-12-31": 272,
+        "2025-01-01": 3080,
+        "2025-01-02": 90649,
+        "2025-01-03": 83918,
+        "2025-01-04": 6468,
+        "2025-01-05": 4984,
+        "2025-01-06": 86762,
+        "2025-01-07": 101326,
+        "2025-01-08": 100661,
+        "2025-01-09": 98492,
+        "2025-01-10": 97160,
+        "2025-01-11": 4911,
+        "2025-01-12": 3100,
+        "2025-01-13": 98953,
+        "2025-01-14": 97942,
+        "2025-01-15": 97788,
+        "2025-01-16": 107691,
+        "2025-01-17": 86048,
+        "2025-01-18": 6951,
+        "2025-01-19": 2742,
+        "2025-01-20": 53605,
+        "2025-01-21": 83293,
+        "2025-01-22": 100787,
+        "2025-01-23": 108664,
+        "2025-01-24": 96362,
+        "2025-01-25": 7174,
+        "2025-01-26": 7045,
+        "2025-01-27": 114013,
+        "2025-01-28": 97505
+      },
+      "weekday_distribution": {
+        "0": 353517,
+        "1": 380958,
+        "2": 302410,
+        "3": 406228,
+        "4": 363600,
+        "5": 25515,
+        "6": 17881
+      }
+    },
+    "categorical_imbalance": {
+      "$insert_id": {
+        "imbalance_ratio": 2.0,
+        "dominant_class_percentage": 0.00010810173887052061
+      },
+      "city": {
+        "imbalance_ratio": 399477.0,
+        "dominant_class_percentage": 21.592079169389482
+      },
+      "country": {
+        "imbalance_ratio": 685411.5,
+        "dominant_class_percentage": 74.09417499185183
+      },
+      "data": {
+        "imbalance_ratio": 91.60268281695781,
+        "dominant_class_percentage": 98.92011767955293
+      },
+      "data_type": {
+        "imbalance_ratio": 1.0,
+        "dominant_class_percentage": 100.0
+      },
+      "device_family": {
+        "imbalance_ratio": 65811.04347826086,
+        "dominant_class_percentage": 81.8143147241595
+      },
+      "device_id": {
+        "imbalance_ratio": 24486.0,
+        "dominant_class_percentage": 1.3234895889917837
+      },
+      "device_type": {
+        "imbalance_ratio": 65811.04347826086,
+        "dominant_class_percentage": 81.8143147241595
+      },
+      "dma": {
+        "imbalance_ratio": 366592.0,
+        "dominant_class_percentage": 19.814616328010946
+      },
+      "event_properties": {
+        "imbalance_ratio": 134094.0,
+        "dominant_class_percentage": 7.247897286051795
+      },
+      "event_type": {
+        "imbalance_ratio": 428058.0,
+        "dominant_class_percentage": 23.136907068718653
+      },
+      "language": {
+        "imbalance_ratio": 924.1305668016195,
+        "dominant_class_percentage": 98.701319760079
+      },
+      "library": {
+        "imbalance_ratio": 1.0,
+        "dominant_class_percentage": 100.0
+      },
+      "os_name": {
+        "imbalance_ratio": 1707543.0,
+        "dominant_class_percentage": 92.29418374809268
+      },
+      "platform": {
+        "imbalance_ratio": 1.0,
+        "dominant_class_percentage": 100.0
+      },
+      "region": {
+        "imbalance_ratio": 399477.0,
+        "dominant_class_percentage": 21.592079169389482
+      },
+      "user_id": {
+        "imbalance_ratio": 45035.0,
+        "dominant_class_percentage": 2.4341809050169476
+      },
+      "user_properties": {
+        "imbalance_ratio": 512831.0,
+        "dominant_class_percentage": 27.718961423353978
+      },
+      "uuid": {
+        "imbalance_ratio": 1.0,
+        "dominant_class_percentage": 5.4050869435260304e-05
+      },
+      "weekday": {
+        "imbalance_ratio": 22.718416195962195,
+        "dominant_class_percentage": 21.956976588946922
+      },
+      "date": {
+        "imbalance_ratio": 114013.0,
+        "dominant_class_percentage": 6.1625017769223325
+      },
+      "year_month": {
+        "imbalance_ratio": 57752.3125,
+        "dominant_class_percentage": 99.89000648069924
+      }
+    },
+    "correlation_analysis": {}
+  },
+  "event_pattern_analysis": {
+    "session_patterns": {
+      "events_per_session": {
+        "count": 59868.0,
+        "mean": 30.903136901182602,
+        "std": 86.50893616304292,
+        "min": 1.0,
+        "25%": 2.0,
+        "50%": 2.0,
+        "75%": 24.0,
+        "max": 2660.0
+      },
+      "session_duration": {
+        "count": 59868.0,
+        "mean": 688.6174832798824,
+        "std": 2168.502447233872,
+        "min": 0.0,
+        "25%": 0.001,
+        "50%": 0.001,
+        "75%": 180.044,
+        "max": 91658.926
+      }
+    },
+    "user_patterns": {
+      "events_per_user": {
+        "count": 868.0,
+        "mean": 2122.9493087557603,
+        "std": 4501.514409504094,
+        "min": 1.0,
+        "25%": 23.0,
+        "50%": 93.0,
+        "75%": 1823.5,
+        "max": 45035.0
+      },
+      "sessions_per_user": {
+        "count": 868.0,
+        "mean": 65.07603686635944,
+        "std": 164.09142028676098,
+        "min": 1.0,
+        "25%": 2.0,
+        "50%": 6.0,
+        "75%": 79.0,
+        "max": 3320.0
+      }
+    },
+    "event_sequences": {
+      "common_event_pairs": {
+        "account-lines::widget:render -> account-lines::widget:render": 187285,
+        "account-lines::widget:render -> account-lines::configurable-table:render": 169510,
+        "account-lines::configurable-table:render -> account-lines::widget:render": 144552,
+        "account-lines::layout:render -> account-lines:::view": 92758,
+        "account-lines::configurable-table:render -> account-lines::configurable-table:render": 63092,
+        "account-lines:::view -> account:::view": 48310,
+        "account:::view -> account-lines::widget:render": 43553,
+        "dashboard:my-book:widget:render -> dashboard:my-book:configurable-table:render": 42627,
+        "dashboard:my-book:configurable-table:render -> dashboard:my-book:widget:render": 38884,
+        ":all-accounts:layout:render -> :all-accounts::view": 36053
+      }
+    },
+    "time_between_events": {
+      "overall_stats": {
+        "count": 1841852.0,
+        "mean": 962.5583077831441,
+        "std": 60331.839411600486,
+        "min": 0.0,
+        "25%": 0.004,
+        "50%": 0.026,
+        "75%": 1.343,
+        "max": 21717777.231
+      },
+      "by_event_type": {
+        "application-window-opened": 30305.035581921387,
+        "::nav-header:user-signed-out": 28940.091015723272,
+        "session_end": 3267.2054935261112,
+        "session_start": 2783.114735129787,
+        "submissions:example_submission-definition::view": 474.991,
+        ":all-accounts::advanced-filters-opened": 300.668,
+        "submissions:policy-create::submit-click": 267.1393381924198,
+        "submissions:renewal-create::save-click": 244.3895,
+        "account-policy-rating::configurable-table:render": 243.14311111111112,
+        "submissions:renewal-create::submit-click": 237.64241630901287
+      }
+    }
+  }
+}

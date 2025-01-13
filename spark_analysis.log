@@ -1,0 +1,47 @@
+2025-02-23 22:38:06,140 - INFO - Total events: 13,559,328           
+2025-02-23 22:38:06,140 - INFO - Unique users: 13,559,295
+2025-02-23 22:38:06,140 - INFO - Unique sessions: 10,343
+2025-02-23 22:38:06,140 - INFO - 
+=== Top 10 Event Types ===
++----------+--------+
+|event_type|count   |
++----------+--------+
+|591532    |13559328|
++----------+--------+
+
+2025-02-23 22:38:06,881 - INFO - 
+=== Top 5 Countries ===
++--------------------+-----+                                                    
+|             country|count|
++--------------------+-----+
+|2024-06-27 13:48:...| 2203|
+|2024-09-10 04:43:...| 1575|
+|2024-04-23 13:09:...|  946|
+|2024-06-18 14:08:...|  894|
+|2024-07-01 14:46:...|  853|
++--------------------+-----+
+
+2025-02-23 22:38:08,831 - INFO - 
+=== OS Distribution ===
++-------+--------+----------+
+|os_name|   count|percentage|
++-------+--------+----------+
+|  event|13559328|     100.0|
++-------+--------+----------+
+
+2025-02-23 22:38:09,228 - INFO - 
+=== Hourly Distribution ===
++----+--------+
+|hour|   count|
++----+--------+
+|NULL|13559328|
++----+--------+
+
+2025-02-23 22:38:09,554 - INFO - Completed: Data Analysis in 32.48 seconds
+2025-02-23 22:38:09,554 - INFO - Current memory usage: 23.17 MB
+2025-02-23 22:38:09,554 - INFO - 
+Total analysis completed in 35.44 seconds
+2025-02-23 22:38:09,554 - INFO - Current memory usage: 23.23 MB
+2025-02-23 22:38:09,946 - INFO - Closing down clientserver connection2025-02-24 10:39:25,275 - INFO - Starting Spark analysis...
+2025-02-24 10:39:25,385 - ERROR - Error in analysis: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+2025-02-24 10:39:25,386 - INFO - Current memory usage: 37.06 MB

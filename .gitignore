@@ -1,0 +1,12 @@
+2024/
+2025_csv/
+uncompiled_data/
+venv/
+__pycache__/
+runQL.egg-info/
+runQL/__pycache__/
+runQL/cached_data/
+runQL/cached_models/
+runQL/data/
+__MACOSX/
+.DS_Store
